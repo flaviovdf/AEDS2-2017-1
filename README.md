@@ -1,5 +1,5 @@
-AEDS 2: 2017.1
-==============
+DCC004 - AEDS 2: 2017.1
+=======================
 
 Professor: Flavio Figueiredo
 
