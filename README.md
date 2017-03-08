@@ -29,27 +29,27 @@ https://drive.google.com/drive/folders/0B0ryAvcYobs0RWtXV2hWeUdSUjQ
 |   7   |          |  Técnicas de Análise de Algoritmos        |                                                        |
 |   8   |          |  Técnicas de Análise de Algoritmos        |                                                        |
 |   9   |          |  Recursividade (Análise)                  |                                                        |
-|   10  |          |  Filas e Pilhas                           |                                                        |
+|   10  |          | *Prova 1*                                 |                                                        |
 |   11  |          |  Filas e Pilhas                           |                                                        |
-|   12  |          |  Árvores                                  |                                                        |
-|   13  |          |  Árvores de Pesquisa sem Balanceamento    |                                                        |
-|   14  |          |  Revisão                                  |                                                        |
-|   15  |          |  *Prova 1*                                |                                                        |
-|   16  |          |  Ordenação                                |                                                        |
+|   12  |          |  Filas e Pilhas                           |                                                        |
+|   13  |          |  Árvores                                  |                                                        |
+|   14  |          |  Árvores de Pesquisa sem Balanceamento    |                                                        |
+|   15  |          |  Árvores de Pesquisa sem Balanceamento    |                                                        |
+|   16  |          |  *Prova 2*                                |                                                        |
 |   17  |          |  Ordenação                                |                                                        |
 |   18  |          |  Ordenação                                |                                                        |
 |   19  |          |  Ordenação                                |                                                        |
 |   20  |          |  Ordenação                                |                                                        |
 |   21  |          |  Ordenação                                |                                                        |
-|   22  |          |  Pesquisa Binária                         |                                                        |
-|   23  |          |  Comparação entre Métodos de Ordenação    |                                                        |
-|   24  |          |  Árvores Balanceadas                      |                                                        |
+|   22  |          |  Ordenação                                |                                                        |
+|   23  |          |  Busca Binária                            |                                                        |
+|   24  |          |  *Prova 3*                                |                                                        |
 |   25  |          |  Árvores Balanceadas                      |                                                        |
 |   26  |          |  Árvores Balanceadas                      |                                                        |
-|   27  |          |  Hashing                                  |                                                        |
+|   27  |          |  Árvores Balanceadas                      |                                                        |
 |   28  |          |  Hashing                                  |                                                        |
-|   29  |          |  Revisão                                  |                                                        |
-|   30  |          |  *Prova 2*                                |                                                        |
+|   29  |          |  Hashing                                  |                                                        |
+|   30  |          |  *Prova 4*                                |                                                        |
 |   31  |          |  *Exame Suplementar*                      |                                                        |
 |   32  |          |  *Exame Final*                            |                                                        |
 
