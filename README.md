@@ -5,7 +5,7 @@ Professor: Flavio Figueiredo
 
 Monitores: Não Definido
 
-Aulas: Terças e Quintas (17:00 - 18:40)
+Aulas: Segundas e Quartas (13:00 - 14:40)
 
 Sala: 2008
 
