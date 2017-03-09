@@ -20,7 +20,7 @@ https://drive.google.com/drive/folders/0B0ryAvcYobs0RWtXV2hWeUdSUjQ
 
 | Aula  | Data     |  Assunto                                  | Link Slides                                            |
 |-------|----------|-------------------------------------------|--------------------------------------------------------|
-|   1   | 09/03/17 |  Introdução                               | [00-Apresentação]                                      |
+|   1   | 09/03/17 |  Introdução                               | [00-Apresentação] e [01-RevisaoC1]                     |
 |   2   |          |  Revisao C                                |                                                        |
 |   3   |          |  Alocação Dinâmica de Memória             |                                                        |
 |   4   |          |  Tipos Abstrato de Dados                  |                                                        |
@@ -54,4 +54,4 @@ https://drive.google.com/drive/folders/0B0ryAvcYobs0RWtXV2hWeUdSUjQ
 |   32  |          |  *Exame Final*                            |                                                        |
 
 [00-Apresentação]: ./slides/00-Apresentacao.pdf
-[01-Introdução]: ./slides/01-Introducao.pdf
+[01-RevisaoC1]: ./slides/01-RevisaoC.pdf
