@@ -14,7 +14,7 @@ Conteúdo da Página
 
 - [Aulas](#aulas)
 - [Vídeos](#videos)
-- [TPs](...)
+- [TP0](./TP0/)
 
 <div id='aulas'/>
 Aulas
