@@ -113,14 +113,14 @@ O nome do arquivo de entrada vai ser passado para o programa pela
 linha de comando.
 
 **No Windows**
-~~~cmd
+```cmd
 tp0 meuarquivodeentrada.txt meuarquivodesaida.txt
-~~~
+```
 
 **No linux**
-~~~bash
+```bash
 ./tp0 meuarquivodeentrada.txt meuarquivodesaida.txt
-~~~
+```
 
 Pontos Importantes
 ------------------------------
@@ -161,6 +161,6 @@ Perguntas
   }
   ```
   
-  1. **Como você adapataria seu TP para utilizar alocação dinâmica de memória? Isto é malloc e free ao invés de matrizes C.**
+  1. **Como você adapataria seu TP para utilizar alocação dinâmica de memória? Isto é, alocar as matrizes malloc e free ao invés de matrizes C. Escreva o código de alocar a matriz**
 
 
