@@ -112,12 +112,12 @@ teste. Abaixo segue um exemplo:
 O nome do arquivo de entrada vai ser passado para o programa pela
 linha de comando.
 
-** No Windows **
+**No Windows**
 ~~~cmd
 tp0 meuarquivodeentrada.txt meuarquivodesaida.txt
 ~~~
 
-** No linux **
+**No linux**
 ~~~bash
 ./tp0 meuarquivodeentrada.txt meuarquivodesaida.txt
 ~~~
