@@ -25,6 +25,9 @@ O Problema
 Um conceito bastante utilizado na álgebra linear é o de norma de matrizes e
 vetores. Então, vamos iniciar definindo uma matriz $X$:
 
+![Matriz](matriz.png)
+
+<!---
 $$
 X = \begin{bmatrix}
     x_{11}       & x_{12} & x_{13} & \dots & x_{1m} \\
@@ -33,6 +36,7 @@ X = \begin{bmatrix}
     x_{n1}       & x_{n2} & x_{n3} & \dots & x_{nm}
 \end{bmatrix}
 $$
+-->
 
 A matriz $X$ acima tem n-linhas e m-colunas. Neste TP você vai escrever **três**
 funções diferentes. Cada função é definida como uma norma de uma matriz.
@@ -44,19 +48,31 @@ https://en.wikipedia.org/wiki/Matrix_norm
 
 **Norma Um**
 
+![Norma1](normaum.png)
+
+<!---
 $$ \|X\|_1 = \max_{1 \leq j \leq n} \sum_{i=1}^m | x_{ij} | $$
+--->
 
 Soma da maior coluna que tem a maior soma.
 
 **Norma Infinito**
 
+![NormaInf](normainf.png)
+
+<!---
 $$ \|X\|_\infty = \max_{1 \leq i \leq m} \sum _{j=1}^n | x_{ij} | $$
+--->
 
 Soma da maior linha que tem a maior soma.
 
 **Norma Frobenius ao Quadrado**
 
+![NormaFro](normfro.png)
+
+<!---
 $$\|X\|_{\rm F}^2 =\sum_{i=1}^m\sum_{j=1}^n |a_{ij}|^2 $$
+--->
 
 Soma de todos os elementos elevados ao quadrado.
 
