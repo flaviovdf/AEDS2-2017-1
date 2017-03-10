@@ -23,7 +23,7 @@ O Problema
 ------------------
 
 Um conceito bastante utilizado na álgebra linear é o de norma de matrizes e
-vetores. Então, vamos iniciar definindo uma matriz $X$:
+vetores. Então, vamos iniciar definindo uma matriz *X*:
 
 ![Matriz](matriz.png)
 
