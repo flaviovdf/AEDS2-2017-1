@@ -139,6 +139,7 @@ Uma documentação em PDF contendo de no máximo 5 páginas contendo:
 1. Como executar o TP
 1. Quais foram suas deciões de implementação
 1. Respostas das perguntas abaixo
+1. Código do TP claro
 
 Perguntas
 ---------------
