@@ -72,16 +72,8 @@ Agradeço ao Pedro Olmo por fazer alguns dos vídeos abaixo. Os mesmos devem
 ajudar vocês a configurar um ambiente para compilar os TPs.
 Usuários do linux já devem ter o Gcc instalado.
 
-**Como instalar o GCC no Windows?**
+**Como instalar o GCC no Windows?** [Documentação](http://homepages.dcc.ufmg.br/~olmo/Instalacao%20GCC%20e%20Textpad.pdf), [Vídeo](https://www.youtube.com/watch?v=FzPBZjkoEmA)
 
-[Documentação](http://homepages.dcc.ufmg.br/~olmo/Instalacao%20GCC%20e%20Textpad.pdf)
+**Como utilizar o GCC no Windows?** [Vídeo](https://www.youtube.com/watch?v=55UX7YpRTig)
 
-[Vídeo](https://www.youtube.com/watch?v=FzPBZjkoEmA)
-
-**Como utilizar o GCC no Windows?**
-
-[Vídeo](https://www.youtube.com/watch?v=55UX7YpRTig)
-
-**Como instalar o CodeBlocks?**
-
-[Vídeo](http://www.youtube.com/watch?v=w2XLvEcSrgo)
+**Como instalar o CodeBlocks?** [Vídeo](http://www.youtube.com/watch?v=w2XLvEcSrgo)
