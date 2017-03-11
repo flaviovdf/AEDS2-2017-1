@@ -14,7 +14,7 @@ Conteúdo da Página
 
 - [Aulas](#aulas)
 - [Vídeos](#videos)
-- [TP0](./TP0/)
+- [TP0](https://github.com/flaviovdf/AEDS2-2017-1/blob/master/TP0/README.md)
 
 <div id='aulas'/>
 Aulas
