@@ -147,6 +147,8 @@ Uma documentação em PDF contendo de no máximo 5 páginas contendo:
   1. **Imagine que n e m so valores bem grandes (acima de 10 milhões), como você faria para resolver o
        trabalho sem alocar as matrizes em memória?**
   
+  1. **Como você adapataria seu TP para utilizar alocação dinâmica de memória? Isto é, alocar as matrizes malloc e free ao invés de matrizes C. Escreva o código de alocar a matriz**
+  
   1. **Olhando a função abaixo, você consegue me dizer qual é a saída para qualquer entrada n e m? Isto é, escrever a saída como uma equação.**
   
 ```c
@@ -168,7 +170,5 @@ int nops(int n, int m) {
   return rv;
 }
 ```
-  
-  1. **Como você adapataria seu TP para utilizar alocação dinâmica de memória? Isto é, alocar as matrizes malloc e free ao invés de matrizes C. Escreva o código de alocar a matriz**
 
 
