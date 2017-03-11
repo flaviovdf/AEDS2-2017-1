@@ -1,5 +1,4 @@
-TP0: Normas de Matrizes
-=====================
+# TP0: Normas de Matrizes
 
 Neste TP vamos relembrar um pouco dos conceitos de AEDS1. Em particular
 vamos passar pelos seguintes pontos:
@@ -9,18 +8,16 @@ vamos passar pelos seguintes pontos:
   3. Matrizes e vetores
   4. Entrada e Saída
 
-Este TP existe para que eu possa entender melhor como está o conhecimento neste
-inicio de semestre.
+Este TP existe para que eu possa entender melhor como está o conhecimento no
+começo do semestre.
 
-Datas
----------
+## Datas
 
   * Disponível: Dia 11 de Março
   * Entrega: para o dia 21 de Março
   * Posso entregar atrasado? Não, o TP já vale pontos extra.
 
-O Problema
-------------------
+## O Problema
 
 Um conceito bastante utilizado na álgebra linear é o de norma de matrizes e
 vetores. Então, vamos iniciar definindo uma matriz *X*:
@@ -78,9 +75,7 @@ Soma de todos os elementos elevados ao quadrado.
 
 *Nos slides não elevei ao quadrado, usem esta definição*
 
-
-Entrada e Saída
------------------------
+## Entrada e Saída
 
 A entrada do TP será um arquivo com vários casos de testes. A primeira linha do
 arquivo indica o número de casos. Isto é, se a primeira linha for `5`, você vai
@@ -97,17 +92,17 @@ teste. Abaixo segue um exemplo:
 *Os números sempre serão inteiros*
 
 | *Entrada* `entrada.txt` | Saída `saida.txt` |
-|--------------------------------------|---------------------------|
-|3                                                | 101 112  18552       |
-|2 4                                             | 8 7 84                        |
-|1 -1 90 20                                | 7 7 49                        |
-|0 -100 1 -7                               |                                    |
-|3 5                                             |                                    |
-|0 0 0 -3 0                                  |                                    |
-|0 -7 0 0 0                                  |                                    |
-|0 0 1 5 0                                   |                                    |
-|1 1                                             |                                    |
-|7                                                |                                    |
+|-------------------------|-------------------|
+|3                        | 101 112  18552    |
+|2 4                      | 8 7 84            |
+|1 -1 90 20               | 7 7 49            |
+|0 -100 1 -7              |                   |
+|3 5                      |                   |
+|0 0 0 -3 0               |                   |
+|0 -7 0 0 0               |                   |
+|0 0 1 5 0                |                   |
+|1 1                      |                   |
+|7                        |                   |
 
 O nome do arquivo de entrada vai ser passado para o programa pela
 linha de comando.
@@ -122,17 +117,21 @@ tp0 meuarquivodeentrada.txt meuarquivodesaida.txt
 ./tp0 meuarquivodeentrada.txt meuarquivodesaida.txt
 ```
 
-Pontos Importantes
-------------------------------
+## Pontos Importantes
 
 1. Todo o TP pode ser feito usando apenas ```stdio.h``` e ```stdlib.h```
 1. Não precisa usar nenhuma outra biblioteca
 1. Isto é, implementem tudo vocês mesmo!
     1. A ideia aqui é ver como estão os conceitos base.
 1. Implementa cada norma em uma função diferente.
+1. Caso use uma IDE como o CodeBlocks, entregue apenas o arquivo tp0.c
 
-Entrega
-------------
+## Entrega
+
+Código
+
+1. Seu código deve estar em um único arquivo tp0.c
+1. Seu código deve estar bem documentado
 
 Uma documentação em PDF contendo de no máximo 5 páginas contendo:
 
@@ -141,10 +140,12 @@ Uma documentação em PDF contendo de no máximo 5 páginas contendo:
 1. Respostas das perguntas abaixo
 1. Código do TP claro
 
-Perguntas
----------------
+## Perguntas
 
   1. **Se cada elemento da matriz ocupa 4 bytes. Quanto de espaço uma matriz n por m ocupa na memória?**
+  
+  1. **Imagine que n e m so valores bem grandes (acima de 10 milhões), como você faria para resolver o
+       trabalho sem alocar as matrizes em memória?**
   
   1. **Olhando a função abaixo, você consegue me dizer qual é a saída para qualquer entrada n e m? Isto é, escrever a saída como uma equação.**
   
@@ -155,7 +156,10 @@ Perguntas
   	{
   		for (int j = 0; j < m; j++) 
   		{
-  			rv++;
+        for (int k = 0; k < (n + m); k++)
+        {
+  			  rv++;
+        }
   		}
   	}
   	return rv;
