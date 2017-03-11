@@ -152,14 +152,17 @@ Uma documentação em PDF contendo de no máximo 5 páginas contendo:
   ```c
   int nops(int n, int m) {
   	int rv = 0;
-  	for (int i = 0; i < n; i++) 
+    int i = 0;
+    int j = 0;
+    int k = 0;
+  	for (i = 0; i < n; i++) 
   	{
-  		for (int j = 0; j < m; j++) 
+  		for (j = 0; j < m; j++) 
   		{
-        for (int k = 0; k < (n + m); k++)
-        {
-  			  rv++;
-        }
+      	  for (k = 0; k < (n + m); k++)
+      	  {
+  				rv++;
+      	  }
   		}
   	}
   	return rv;
