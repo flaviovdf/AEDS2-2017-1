@@ -35,7 +35,7 @@ X = \begin{bmatrix}
 $$
 -->
 
-A matriz $X$ acima tem n-linhas e m-colunas. Neste TP você vai escrever **três**
+A matriz *X* acima tem n-linhas e m-colunas. Neste TP você vai escrever **três**
 funções diferentes. Cada função é definida como uma norma de uma matriz.
 Em particular, você vai implementar a norma um, norma infinito e norma
 frobenius. 
