@@ -149,25 +149,25 @@ Uma documentação em PDF contendo de no máximo 5 páginas contendo:
   
   1. **Olhando a função abaixo, você consegue me dizer qual é a saída para qualquer entrada n e m? Isto é, escrever a saída como uma equação.**
   
-  ```c
-  int nops(int n, int m) {
-  	int rv = 0;
-    int i = 0;
-    int j = 0;
-    int k = 0;
-  	for (i = 0; i < n; i++) 
-  	{
-  		for (j = 0; j < m; j++) 
-  		{
-      	  for (k = 0; k < (n + m); k++)
-      	  {
-  				rv++;
-      	  }
-  		}
-  	}
-  	return rv;
+```c
+int nops(int n, int m) {
+  int rv = 0;
+  int i = 0;
+  int j = 0;
+  int k = 0;
+  for (i = 0; i < n; i++) 
+  {
+    for (j = 0; j < m; j++) 
+    {
+      for (k = 0; k < (n + m); k++)
+      {
+        rv++;
+      }
+    }
   }
-  ```
+  return rv;
+}
+```
   
   1. **Como você adapataria seu TP para utilizar alocação dinâmica de memória? Isto é, alocar as matrizes malloc e free ao invés de matrizes C. Escreva o código de alocar a matriz**
 
