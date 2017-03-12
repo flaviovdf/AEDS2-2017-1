@@ -19,45 +19,55 @@ Sala: 2008
 
 Slides também podem ser encontrados no [Google Drive](https://drive.google.com/drive/folders/0B0ryAvcYobs0RWtXV2hWeUdSUjQ)
 
-**Plano de aulas inicial**
-
-| Aula  | Data     |  Assunto                                  | Link Slides                                            |
-|-------|----------|-------------------------------------------|--------------------------------------------------------|
-|   1   | 09/03/17 |  Introdução                               | [00-Apresentação] e [01-RevisaoC1]                     |
-|   2   |          |  Revisao C                                |                                                        |
-|   3   |          |  Alocação Dinâmica de Memória             |                                                        |
-|   4   |          |  Tipos Abstrato de Dados                  |                                                        |
-|   5   |          |  Análise de Complexidade                  |                                                        |
-|   6   |          |  Comportamento Assintótico                |                                                        |
-|   7   |          |  Técnicas de Análise de Algoritmos        |                                                        |
-|   8   |          |  Técnicas de Análise de Algoritmos        |                                                        |
-|   9   |          |  Recursividade (Análise)                  |                                                        |
-|   10  |          | *Prova 1*                                 |                                                        |
-|   11  |          |  Filas e Pilhas                           |                                                        |
-|   12  |          |  Filas e Pilhas                           |                                                        |
-|   13  |          |  Árvores                                  |                                                        |
-|   14  |          |  Árvores de Pesquisa sem Balanceamento    |                                                        |
-|   15  |          |  Árvores de Pesquisa sem Balanceamento    |                                                        |
-|   16  |          |  *Prova 2*                                |                                                        |
-|   17  |          |  Ordenação                                |                                                        |
-|   18  |          |  Ordenação                                |                                                        |
-|   19  |          |  Ordenação                                |                                                        |
-|   20  |          |  Ordenação                                |                                                        |
-|   21  |          |  Ordenação                                |                                                        |
-|   22  |          |  Ordenação                                |                                                        |
-|   23  |          |  Busca Binária                            |                                                        |
-|   24  |          |  *Prova 3*                                |                                                        |
-|   25  |          |  Árvores Balanceadas                      |                                                        |
-|   26  |          |  Árvores Balanceadas                      |                                                        |
-|   27  |          |  Árvores Balanceadas                      |                                                        |
-|   28  |          |  Hashing                                  |                                                        |
-|   29  |          |  Hashing                                  |                                                        |
-|   30  |          |  *Prova 4*                                |                                                        |
-|   31  |          |  *Exame Suplementar*                      |                                                        |
-|   32  |          |  *Exame Final*                            |                                                        |
+| Aula | Data     |  Revisão AEDS-1                           | Informações                                            |
+|------|----------|-------------------------------------------|--------------------------------------------------------|
+|   1  | 09/03/17 |  Introdução                               | [00-Apresentação], [01-RevisaoC1], [PaP-Poscomp09]     |
+|   2  | 14/03/17 |  Revisao C                                |                                                        |
+|   3  | 16/03/17 |  Alocação Dinâmica de Memória             |                                                        |
 
 [00-Apresentação]: ./slides/00-Apresentacao.pdf
 [01-RevisaoC1]: ./slides/01-RevisaoC.pdf
+[PaP-Poscomp09]: https://goo.gl/XoMnzc 
+
+| Aula | Data     |  Prova-1: TADs e Complexidade             | Informações                                            |
+|------|----------|-------------------------------------------|--------------------------------------------------------|
+|   4  | 21/03/17 |  Tipos Abstrato de Dados                  |                                                        |
+|   5  | 23/03/17 |  Análise de Complexidade                  |                                                        |
+|   6  | 28/03/17 |  Comportamento Assintótico                |                                                        |
+|   7  | 30/03/17 |  Técnicas de Análise de Algoritmos        |                                                        |
+|   8  | 04/04/17 |  Técnicas de Análise de Algoritmos        |                                                        |
+|   9  | 06/04/17 |  Recursividade (Análise)                  |                                                        |
+|   10 | 11/04/17 |  *Prova 1*                                |                                                        |
+
+| Aula | Data     |  Prova-2: Estruturas Básicas              | Informações                                            |
+|------|----------|-------------------------------------------|--------------------------------------------------------|
+|   11 | 13/04/17 |  Filas e Pilhas                           |                                                        |
+|   12 | 18/04/17 |  Filas e Pilhas                           |                                                        |
+|   13 | 20/04/17 |  Filas e Pilhas                           |                                                        |
+|   14 | 25/04/17 |  Árvores                                  |                                                        |
+|   15 | 27/04/17 |  Árvores                                  |                                                        |
+|   16 | 02/05/17 |  *Prova 2*                                |                                                        |
+
+| Aula | Data     |  Prova-3: Ordenação                       | Informações                                            |
+|------|----------|-------------------------------------------|--------------------------------------------------------|
+|   17 | 04/05/17 |  Ordenação                                |                                                        |
+|   18 | 09/05/17 |  Ordenação                                |                                                        |
+|   19 | 11/05/17 |  Ordenação                                |                                                        |
+|   20 | 16/05/17 |  Ordenação                                |                                                        |
+|   21 | 18/05/17 |  Ordenação                                |                                                        |
+|   22 | 23/05/17 |  Ordenação                                |                                                        |
+|   23 | 25/06/17 |  *Prova 3*                                |                                                        |
+
+| Aula | Data     |  Prova-4: Busca                           | Informações                                            |
+|------|----------|-------------------------------------------|--------------------------------------------------------|
+|   24 | 30/05/17 |  Busca Binária                            |                                                        |
+|   25 | 01/06/17 |  Árvores de Pesquisa                      |                                                        |
+|   26 | 06/06/17 |  Árvores Balanceadas                      |                                                        |
+|   27 | 08/06/17 |  Árvores Balanceadas                      |                                                        |
+|   28 | 13/06/17 |  Hashing                                  |                                                        |
+|      | 15/06/17 |                                           | *Sem aulas, feriado.*                                  |
+|   29 | 20/06/17 |  Hashing                                  |                                                        |
+|   30 | 22/07/17 |  *Prova 4*                                |                                                        |
 
 ## Vídeos
 
@@ -69,7 +79,7 @@ Usuários do linux já devem ter o Gcc instalado.
 
 **Como utilizar o GCC no Windows?** [Vídeo](https://www.youtube.com/watch?v=55UX7YpRTig)
 
-**Como instalar o CodeBlocks?** [Vídeo](http://www.youtube.com/watch?v=w2XLvEcSrgo)
+**Como instalar o CodeBlocks no Windows?** [Vídeo](http://www.youtube.com/watch?v=w2XLvEcSrgo)
 
 ## Material Interessante
 
