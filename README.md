@@ -12,14 +12,12 @@ Sala: 2008
 
 - [Aulas](#aulas)
 - [Vídeos](#videos)
-- [TP0](./TP0/)
+- [TP0](https://github.com/flaviovdf/AEDS2-2017-1/blob/master/TP0/README.md)
 - [Material Interessante](#material-interessante)
 
 ## Aulas
 
-Slides também podem ser encontrados no Google Drive.
-
-https://drive.google.com/drive/folders/0B0ryAvcYobs0RWtXV2hWeUdSUjQ
+Slides também podem ser encontrados no [Google Drive](https://drive.google.com/drive/folders/0B0ryAvcYobs0RWtXV2hWeUdSUjQ)
 
 **Plano de aulas inicial**
 
