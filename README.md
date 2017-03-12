@@ -1,5 +1,4 @@
-DCC004 - AEDS 2: 2017.1
-=======================
+# DCC004 - AEDS 2: 2017.1
 
 Professor: Flavio Figueiredo
 
@@ -9,16 +8,14 @@ Aulas: Segundas e Quartas (13:00 - 14:40)
 
 Sala: 2008
 
-Conteúdo da Página
--------------------
+## Conteúdo da Página
 
 - [Aulas](#aulas)
 - [Vídeos](#videos)
 - [TP0](./TP0/)
+- [Material Interessante](#material-interessante)
 
-<div id='aulas'/>
-Aulas
------
+## Aulas
 
 Slides também podem ser encontrados no Google Drive.
 
@@ -64,9 +61,7 @@ https://drive.google.com/drive/folders/0B0ryAvcYobs0RWtXV2hWeUdSUjQ
 [00-Apresentação]: ./slides/00-Apresentacao.pdf
 [01-RevisaoC1]: ./slides/01-RevisaoC.pdf
 
-<div id='videos'/>
-Vídeos
-------
+## Vídeos
 
 Agradeço ao Pedro Olmo por fazer alguns dos vídeos abaixo. Os mesmos devem
 ajudar vocês a configurar um ambiente para compilar os TPs.
@@ -77,3 +72,7 @@ Usuários do linux já devem ter o Gcc instalado.
 **Como utilizar o GCC no Windows?** [Vídeo](https://www.youtube.com/watch?v=55UX7YpRTig)
 
 **Como instalar o CodeBlocks?** [Vídeo](http://www.youtube.com/watch?v=w2XLvEcSrgo)
+
+## Material Interessante
+
+**C Tutor Online** [Execução Passo a Passo de Código C](http://pythontutor.com/c.html)
