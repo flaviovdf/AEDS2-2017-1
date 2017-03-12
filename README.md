@@ -67,7 +67,7 @@ Slides também podem ser encontrados no [Google Drive](https://drive.google.com/
 |   28 | 13/06/17 |  Hashing                                  |                                                        |
 |      | 15/06/17 |                                           | *Sem aulas, feriado.*                                  |
 |   29 | 20/06/17 |  Hashing                                  |                                                        |
-|   30 | 22/07/17 |  *Prova 4*                                |                                                        |
+|   30 | 22/06/17 |  *Prova 4*                                |                                                        |
 
 ## Vídeos
 
