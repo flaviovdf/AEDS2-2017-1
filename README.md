@@ -11,7 +11,7 @@ Sala: 2008
 ## Conteúdo da Página
 
 - [Aulas](#aulas)
-- [Vídeos](#vdeos)
+- [Vídeos](#vídeos)
 - [TP0](https://github.com/flaviovdf/AEDS2-2017-1/blob/master/TP0/README.md)
 - [Material Interessante](#material-interessante)
 
