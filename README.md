@@ -22,7 +22,7 @@ Slides também podem ser encontrados no [Google Drive](https://drive.google.com/
 | Aula | Data     |  Revisão AEDS-1                           | Informações                                            |
 |------|----------|-------------------------------------------|--------------------------------------------------------|
 |   1  | 09/03/17 |  Introdução                               | [00-Apresentação], [01-RevisaoC1], [PaP-Poscomp09]     |
-|   2  | 14/03/17 |  Revisao C                                |                                                        |
+|   2  | 14/03/17 |  Revisao C                                | [01-RevisaoC1]                                         |
 |   3  | 16/03/17 |  Alocação Dinâmica de Memória             |                                                        |
 
 [00-Apresentação]: ./slides/00-Apresentacao.pdf
