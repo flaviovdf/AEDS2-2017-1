@@ -23,11 +23,12 @@ Slides também podem ser encontrados no [Google Drive](https://drive.google.com/
 |------|----------|-------------------------------------------|--------------------------------------------------------|
 |   1  | 09/03/17 |  Introdução                               | [00-Apresentação], [01-RevisaoC1], [PaP-Poscomp09]     |
 |   2  | 14/03/17 |  Revisao C                                | [01-RevisaoC1]                                         |
-|   3  | 16/03/17 |  Alocação Dinâmica de Memória             |                                                        |
+|   3  | 16/03/17 |  Alocação Dinâmica de Memória             | [EsqueletoTP0]                                         |
 
 [00-Apresentação]: ./slides/00-Apresentacao.pdf
 [01-RevisaoC1]: ./slides/01-RevisaoC.pdf
-[PaP-Poscomp09]: https://goo.gl/XoMnzc 
+[PaP-Poscomp09]: https://goo.gl/XoMnzc
+[EsqueletoTP0]: https://github.com/flaviovdf/AEDS2-2017-1/tree/master/TP0/main.c
 
 | Aula | Data     |  Prova-1: TADs e Complexidade             | Informações                                            |
 |------|----------|-------------------------------------------|--------------------------------------------------------|
