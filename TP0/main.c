@@ -7,20 +7,15 @@
  */
 int main(int argc, char **argv)
 {
-    //Lembre-se que argv[0] é o nome do programa
-    if (argc < 3) {
-        printf("Você não passou o arquivo de entrada e/ou o de saída\n");
-        exit(EXIT_FAILURE);
-    }
-    
-    char *nomeDoArquivoDeEntrada = argv[1];
+        
+    char *nomeDoArquivoDeEntrada = "entrada.txt";
     FILE *arquivoEntrada = fopen(nomeDoArquivoDeEntrada, "r");
     if (!arquivoEntrada) {
         printf("Não consegui ler o arquivo de entrada\n");
         exit(EXIT_FAILURE);
     }
 
-    char *nomeDoArquivoDeSaida = argv[2];
+    char *nomeDoArquivoDeSaida = "saida.txt";
     FILE *arquivoSaida = fopen(nomeDoArquivoDeSaida, "w");
     if (!arquivoSaida) {
         printf("Não consegui abrir o arquivo de saída\n");
@@ -40,6 +35,12 @@ int main(int argc, char **argv)
         for(int linhaAtual = 0; linhaAtual < numeroLinhas; linhaAtual++) {
             for(int colunaAtual = 0; colunaAtual < numeroColunas; colunaAtual++) {
                 fscanf(arquivoEntrada, "%d", &matriz[linhaAtual][colunaAtual]);
+            }
+        }
+        
+        for(int linhaAtual = 0; linhaAtual < numeroLinhas; linhaAtual++) {
+            for(int colunaAtual = 0; colunaAtual < numeroColunas; colunaAtual++) {
+                printf("%d\t", matriz[linhaAtual][colunaAtual]);
             }
         }
 
