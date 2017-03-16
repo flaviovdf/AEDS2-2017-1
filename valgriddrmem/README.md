@@ -17,7 +17,7 @@ Alternativa ao valgrind para windows.
   1. http://www.drmemory.org/
 
 ```
-drmemory -check_uninitialized -results_to_stderr -show_reachable -- ./meu_programa
+drmemory -check_uninitialized -check_leaks -results_to_stderr -show_reachable -fetch_symbols -- ./meu_programa
 ```
 
 Exemplos
