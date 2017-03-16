@@ -1,11 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*
- * Argc indica quantos argumentos serão passados para a função. Argv
- * são os argumentos em si.
- */
-int main(int argc, char **argv)
+int main(void)
 {
         
     char *nomeDoArquivoDeEntrada = "entrada.txt";
