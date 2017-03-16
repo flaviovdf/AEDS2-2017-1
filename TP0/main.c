@@ -33,12 +33,6 @@ int main(void)
                 fscanf(arquivoEntrada, "%d", &matriz[linhaAtual][colunaAtual]);
             }
         }
-        
-        for(int linhaAtual = 0; linhaAtual < numeroLinhas; linhaAtual++) {
-            for(int colunaAtual = 0; colunaAtual < numeroColunas; colunaAtual++) {
-                printf("%d\t", matriz[linhaAtual][colunaAtual]);
-            }
-        }
 
         int normaUm = 0;
         int normaInf = 0;
