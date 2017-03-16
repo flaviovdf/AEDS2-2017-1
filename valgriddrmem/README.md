@@ -6,7 +6,7 @@ Valgrind
   1. http://www.burningcutlery.com/derek/docs/drmem-CGO11.pdf
 
 ```
-valgrind -tool=memcheck --tool=callgrind --leak-check=full --track-origins=yes --show-reachable=yes --track-fds=yes program
+valgrind -tool=memcheck --tool=callgrind --leak-check=full --track-origins=yes --show-reachable=yes --track-fds=yes ./meu_programa
 ```
 
 DrMemory
@@ -17,7 +17,7 @@ Alternativa ao valgrind para windows.
   1. http://www.drmemory.org/
 
 ```
-drmemory -check_uninitialized -results_to_stderr -show_reachable -logdir . --
+drmemory -check_uninitialized -results_to_stderr -show_reachable -logdir . -- ./meu_programa
 ```
 
 Exemplos
@@ -86,6 +86,8 @@ int main(void) {
   printf ("x = %d\n", x);
 }
 ```
+
+Olhem os erros do DrMemory e/ou Valgrid para cada código acima!
 
 Mac Users
 =========
