@@ -25,16 +25,9 @@ Slides também podem ser encontrados no [Google Drive](https://drive.google.com/
 |   2  | 14/03/17 |  Revisao C                                | [01-RevisaoC1]                                         |
 |   3  | 16/03/17 |  Alocação Dinâmica de Memória             | [EsqueletoTP0], [02-RevisaoC2], [DrMemory-ValGrind]    |
 
-[00-Apresentação]: ./slides/00-Apresentacao.pdf
-[01-RevisaoC1]: ./slides/01-RevisaoC.pdf
-[PaP-Poscomp09]: https://goo.gl/XoMnzc
-[EsqueletoTP0]: https://github.com/flaviovdf/AEDS2-2017-1/tree/master/TP0/main.c
-[02-RevisaoC2]: ./slides/02-RevisaoC2.pdf
-[DrMemory-ValGrind]: https://github.com/flaviovdf/AEDS2-2017-1/tree/master/valgriddrmem
-
 | Aula | Data     |  Prova-1: TADs e Complexidade             | Informações                                            |
 |------|----------|-------------------------------------------|--------------------------------------------------------|
-|   4  | 21/03/17 |  Tipos Abstrato de Dados                  |                                                        |
+|   4  | 21/03/17 |  Tipos Abstrato de Dados                  |[Maratona], [03-Modularizacao-TADs]                     |
 |   5  | 23/03/17 |  Análise de Complexidade                  |                                                        |
 |   6  | 28/03/17 |  Comportamento Assintótico                |                                                        |
 |   7  | 30/03/17 |  Técnicas de Análise de Algoritmos        |                                                        |
@@ -87,3 +80,13 @@ Usuários do linux já devem ter o Gcc instalado.
 ## Material Interessante
 
 **C Tutor Online** [Execução Passo a Passo de Código C](http://pythontutor.com/c.html)
+
+[00-Apresentação]: ./slides/00-Apresentacao.pdf
+[01-RevisaoC1]: ./slides/01-RevisaoC.pdf
+[PaP-Poscomp09]: https://goo.gl/XoMnzc
+[EsqueletoTP0]: https://github.com/flaviovdf/AEDS2-2017-1/tree/master/TP0/main.c
+[02-RevisaoC2]: ./slides/02-RevisaoC2.pdf
+[DrMemory-ValGrind]: https://github.com/flaviovdf/AEDS2-2017-1/tree/master/valgriddrmem
+
+[03-Modularizacao-TADs]: ./slides/03-Modularizacao-TADs.pdf
+[Maratona]: ./slides/divulgacao-maratona.pdf
