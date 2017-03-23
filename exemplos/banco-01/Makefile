@@ -6,4 +6,4 @@ all: conta_bancaria.o transacao.o
 	$(CC) main.c $(CFLAGS) -o main $(LDFLAGS)
 
 clean:
-	rm -f $(OBJ) main
+	-rm -f *.o main
