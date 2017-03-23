@@ -28,7 +28,7 @@ Slides também podem ser encontrados no [Google Drive](https://drive.google.com/
 | Aula | Data     |  Prova-1: TADs e Complexidade             | Informações                                            |
 |------|----------|-------------------------------------------|--------------------------------------------------------|
 |   4  | 21/03/17 |  Tipos Abstrato de Dados                  |[Maratona], [03-Modularizacao-TADs]                     |
-|   5  | 23/03/17 |  Análise de Complexidade                  |                                                        |
+|   5  | 23/03/17 |  Análise de Complexidade                  |[04-AnaliseComplexidade]                                |
 |   6  | 28/03/17 |  Comportamento Assintótico                |                                                        |
 |   7  | 30/03/17 |  Técnicas de Análise de Algoritmos        |                                                        |
 |   8  | 04/04/17 |  Técnicas de Análise de Algoritmos        |                                                        |
@@ -90,3 +90,4 @@ Usuários do linux já devem ter o Gcc instalado.
 
 [03-Modularizacao-TADs]: ./slides/03-Modularizacao-TADs.pdf
 [Maratona]: ./slides/divulgacao-maratona.pdf
+[04-AnaliseComplexidade]: ./slides/04-AnaliseComplexidade.pdf
