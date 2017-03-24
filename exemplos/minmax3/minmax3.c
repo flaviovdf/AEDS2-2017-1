@@ -52,13 +52,13 @@ void MinMax3(int *vec, int n, int *min, int *max) {
 
 
 int main() {
-  srand(time(NULL));   // should only be called once
+  srand(time(NULL)); //"inicia" o gerador de números aletórios
   
   int n = 10;
   
   int *vec = (int *)malloc(n * sizeof(int));
   for (int i = 0; i < n; i++) {
-    vec[i] = 20 * ((double)rand() / RAND_MAX);
+    vec[i] = 20 * ((double)rand() / RAND_MAX); //gera números aleatórios em C
   }
   
   int min = 0;
