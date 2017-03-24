@@ -3,7 +3,6 @@ Valgrind
 
   1. http://cs.ecs.baylor.edu/~donahoo/tools/valgrind/
   1. http://pages.cs.wisc.edu/~bart/537/valgrind.html
-  1. http://www.burningcutlery.com/derek/docs/drmem-CGO11.pdf
 
 ```
 valgrind -tool=memcheck --tool=callgrind --leak-check=full --track-origins=yes --show-reachable=yes --track-fds=yes ./meu_programa
@@ -15,6 +14,7 @@ DrMemory
 Alternativa ao valgrind para windows.
 
   1. http://www.drmemory.org/
+  1. http://www.burningcutlery.com/derek/docs/drmem-CGO11.pdf
 
 ```
 drmemory -check_uninitialized -check_leaks -results_to_stderr -show_reachable -fetch_symbols -- ./meu_programa
@@ -22,6 +22,8 @@ drmemory -check_uninitialized -check_leaks -results_to_stderr -show_reachable -f
 
 Exemplos
 ========
+
+Compile os códigos abaixo e teste os mesmos no DrMemory ou Valgrind.
 
 *Primeiro Exemplo: Illegal Read*
 
@@ -84,6 +86,18 @@ int main(void) {
 int main(void) {
   int x;
   printf ("x = %d\n", x);
+}
+```
+
+*QuintoExemplo: Arquivo aberto*
+
+```c
+#include<stdio.h>
+int main(void) {
+  FILE *file = fopen("lixo.txt", "w");
+  for (int i = 0; i < 100; i++) {
+    fprintf(file, "%d\n", i);
+  }
 }
 ```
 
