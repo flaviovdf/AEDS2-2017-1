@@ -8,7 +8,7 @@ Aulas: Segundas e Quartas (13:00 - 14:40)
 
 Sala: 2008
 
-[Frequência:](https://docs.google.com/spreadsheets/d/1-hAnJ63kZQ6Wd2hCGYhRkrp2qrgDRhMzr-p-4oxs2bU)
+[Frequência](https://docs.google.com/spreadsheets/d/1-hAnJ63kZQ6Wd2hCGYhRkrp2qrgDRhMzr-p-4oxs2bU)
 
 ## Conteúdo da Página
 
