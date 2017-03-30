@@ -32,7 +32,7 @@ Slides também podem ser encontrados no [Google Drive](https://drive.google.com/
 |   4  | 21/03/17 |  Tipos Abstrato de Dados                  |[Maratona], [03-Modularizacao-TADs]                     |
 |   5  | 23/03/17 |  Análise de Complexidade                  |[04-AnaliseComplexidade]                                |
 |   6  | 28/03/17 |  Comportamento Assintótico                |[04b-MinMax3], [05-Comportamento]                       |
-|   7  | 30/03/17 |  Técnicas de Análise de Algoritmos        |                                                        |
+|   7  | 30/03/17 |  Técnicas de Análise de Algoritmos        |[06-Tecnicas], [06-ExerciciosProva1]                    |
 |   8  | 04/04/17 |  Técnicas de Análise de Algoritmos        |                                                        |
 |   9  | 06/04/17 |  Recursividade (Análise)                  |                                                        |
 |   10 | 11/04/17 |  *Prova 1*                                |                                                        |
@@ -95,3 +95,5 @@ Usuários do linux já devem ter o Gcc instalado.
 [04-AnaliseComplexidade]: ./slides/04-AnaliseComplexidade.pdf
 [04b-MinMax3]: ./slides/04b-MinMax3.pdf
 [05-Comportamento]: ./slides/05-ComportamentoAssintotico.pdf
+[06-Tecnicas]: ./slides/06-Tecnicas.pdf
+[06-ExerciciosProva1]: ./slides/06b-ExerciciosProva1.pdf
