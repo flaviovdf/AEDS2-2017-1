@@ -2,7 +2,7 @@
 
 Professor: Flavio Figueiredo
 
-Monitores: Não Definido
+Monitor: edson (arroba dcc ufmg br)
 
 Aulas: Segundas e Quartas (13:00 - 14:40)
 
