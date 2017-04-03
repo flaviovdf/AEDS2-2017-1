@@ -29,7 +29,7 @@ Em outras palavras, queremos que seja possível que o sistema do banco:
 Como estamos tentando entender o tempo de execução de programas, para seu TP
 você deve utilizar.
 
-```
+```c
 #include <stdio.h>
 #include <time.h>
 
