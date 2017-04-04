@@ -34,8 +34,8 @@ Slides também podem ser encontrados no [Google Drive](https://drive.google.com/
 |   5  | 23/03/17 |  Análise de Complexidade                  |[04-AnaliseComplexidade]                                |
 |   6  | 28/03/17 |  Comportamento Assintótico                |[04b-MinMax3], [05-Comportamento]                       |
 |   7  | 30/03/17 |  Técnicas de Análise de Algoritmos        |[06-Tecnicas], [06-ExerciciosProva1]                    |
-|   8  | 04/04/17 |  Técnicas de Análise de Algoritmos        |                                                        |
-|   9  | 06/04/17 |  Recursividade (Análise)                  |                                                        |
+|   8  | 04/04/17 |  Técnicas de Análise de Algoritmos        |[06-Tecnicas], [07-Recursividade]                       |
+|   9  | 06/04/17 |  Recursividade (Análise)                  |[07-Recursividade]                                      |
 |   10 | 11/04/17 |  *Prova 1*                                |                                                        |
 
 | Aula | Data     |  Prova-2: Estruturas Básicas              | Informações                                            |
@@ -98,3 +98,4 @@ Usuários do linux já devem ter o Gcc instalado.
 [05-Comportamento]: ./slides/05-ComportamentoAssintotico.pdf
 [06-Tecnicas]: ./slides/06-Tecnicas.pdf
 [06-ExerciciosProva1]: ./slides/06b-ExerciciosProva1.pdf
+[07-Recursividade]: ./slides/07-Recursividade.pdf
