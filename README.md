@@ -2,7 +2,9 @@
 
 Professor: Flavio Figueiredo
 
-Monitor: edson (arroba dcc ufmg br)
+Monitores: 
+  - edson (dcc ufmg br)
+  - thiagostehling (gmail com)
 
 Aulas: Segundas e Quartas (13:00 - 14:40)
 
