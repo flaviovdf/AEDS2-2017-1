@@ -41,13 +41,13 @@ void destroyList(array_list_t *list) {
   free(list);
 }
 
-void imprimeLista(array_list_t *list) {
+void printList(array_list_t *list) {
   int i;
   for(i = 0; i < list->nElements; i++)
     printf("%d ", list->data[i]);
   printf("\n");
 }
 
-void removeElementos(array_list_t *list) {
+void removeLastElement(array_list_t *list) {
   list->nElements--;
 }
