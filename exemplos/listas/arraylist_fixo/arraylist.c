@@ -4,7 +4,7 @@
 #include "arraylist.h"
 
 array_list_t *createList() {
-  int *data = (int *) malloc(INIT_SIZE * sizeof(int));
+  int *data = (int *) malloc(MAX_SIZE * sizeof(int));
   if (data == NULL) {
     printf("Error, sem memória!!");
     exit(1);
@@ -12,25 +12,14 @@ array_list_t *createList() {
   array_list_t *list = (array_list_t *) malloc(sizeof(array_list_t));
   list->data = data;
   list->nElements = 0;
-  list->capacity = INIT_SIZE;
   return list;
 }
 
 void addElement(int element, array_list_t *list) {
-  if (list->nElements == list->capacity) {
-    //Duplica tamanho da lista
-    int *newData = (int *) malloc(list->nElements * 2 * sizeof(int));
-    
-    /*
-     * Outra forma de fazer, melhor! Fiz com for para o exemplo.
-     * memcpy(newData, list->data, list->nElements * sizeof(int));
-     */
-    for (int i = 0; i < list->nElements; i++)
-      newData[i] = list->data[i];
-    
+  if (list->nElements == MAX_SIZE) {
     free(list->data);
-    list->data = newData;
-    list->capacity = list->nElements * 2;
+    printf("Error, sem memória!!");
+    exit(1);
   }
   list->data[list->nElements] = element;
   list->nElements++;
@@ -48,6 +37,6 @@ void imprimeLista(array_list_t *list) {
   printf("\n");
 }
 
-void removeElementos(array_list_t *list) {
+void removeElement(array_list_t *list) {
   list->nElements--;
 }

@@ -1,7 +1,7 @@
 #ifndef ARRAY_LIST_H
 #define ARRAY_LIST_H
 
-#define INIT_SIZE 30
+#define MAX_SIZE 30
 
 typedef struct {
   int nElements;
