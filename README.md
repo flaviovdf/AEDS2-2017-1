@@ -42,7 +42,7 @@ Slides também podem ser encontrados no [Google Drive](https://drive.google.com/
 
 | Aula | Data     |  Prova-2: Estruturas Básicas              | Informações                                            |
 |------|----------|-------------------------------------------|--------------------------------------------------------|
-|   11 | 13/04/17 |  Listas                                   | [07-Listas], [ExemplosListas]                          |
+|   11 | 13/04/17 |  Listas                                   | [08-Listas], [08-ExemplosListas]                       |
 |   12 | 18/04/17 |  Filas e Pilhas                           |                                                        |
 |   13 | 20/04/17 |  Filas e Pilhas                           |                                                        |
 |   14 | 25/04/17 |  Árvores                                  |                                                        |
@@ -101,5 +101,5 @@ Usuários do linux já devem ter o Gcc instalado.
 [06-Tecnicas]: ./slides/06-Tecnicas.pdf
 [06-ExerciciosProva1]: ./slides/06b-ExerciciosProva1.pdf
 [07-Recursividade]: ./slides/07-Recursividade.pdf
-[07-Recursividade]: ./slides/08-Listas.pdf
-[07-ExemplosListas]: https://github.com/flaviovdf/AEDS2-2017-1/tree/master/exemplos/listas
+[08-Listas]: ./slides/08-Listas.pdf
+[08-ExemplosListas]: https://github.com/flaviovdf/AEDS2-2017-1/tree/master/exemplos/listas
