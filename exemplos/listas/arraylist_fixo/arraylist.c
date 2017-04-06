@@ -10,6 +10,10 @@ array_list_t *createList() {
     exit(1);
   }
   array_list_t *list = (array_list_t *) malloc(sizeof(array_list_t));
+  if (list == NULL) {
+    printf("Error, sem memória!!");
+    exit(1);
+  }
   list->data = data;
   list->nElements = 0;
   return list;
@@ -18,6 +22,7 @@ array_list_t *createList() {
 void addElement(int element, array_list_t *list) {
   if (list->nElements == MAX_SIZE) {
     free(list->data);
+    free(list);
     printf("Error, sem memória!!");
     exit(1);
   }
