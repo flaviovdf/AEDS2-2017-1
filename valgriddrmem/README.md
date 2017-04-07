@@ -5,7 +5,7 @@ Valgrind
   1. http://pages.cs.wisc.edu/~bart/537/valgrind.html
 
 ```
-valgrind -tool=memcheck --tool=callgrind --leak-check=full --track-origins=yes --show-reachable=yes --track-fds=yes ./meu_programa
+valgrind -tool=memcheck --leak-check=full --track-origins=yes --show-reachable=yes --track-fds=yes ./meu_programa
 ```
 
 DrMemory
