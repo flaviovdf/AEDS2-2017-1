@@ -8,6 +8,12 @@ int main(void) {
   printList(list);
   removeElement(list, 20);
   printList(list);
+  removeElement(list, 0);
+  printList(list);
+  removeElement(list, 99);
+  printList(list);
+  removeElement(list, 22);
+  printList(list);
   destroyList(list);
   return 0;
 }

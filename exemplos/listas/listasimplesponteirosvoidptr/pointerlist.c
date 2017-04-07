@@ -62,7 +62,7 @@ void removeElement(pointer_list_t *list, int i) {
     curr++;
   }
   
-  if (curr == 0 && toFree == NULL) //Lista Vazia
+  if (toFree == NULL) //Lista Vazia
     return;
   
   //Atualiza ponteiros
@@ -70,8 +70,9 @@ void removeElement(pointer_list_t *list, int i) {
     list->first = toFree->next;
   if (toFree == list->last)
     list->last = prev;
-  
+  if (prev != NULL)
+    prev->next = toFree->next;
+
   //Free!
-  prev->next = toFree->next;
   free(toFree);
 }
