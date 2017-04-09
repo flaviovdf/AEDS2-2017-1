@@ -184,7 +184,7 @@
       complexidade f(n).
 
 1. Considerando que 0 < ε < 1 < c, indique para cada par de expressões (A, B)
-   na tabela abaixo, se A é **Ο**, **Ω**, ou **Θ** de B. Justifique suas
+   na tabela abaixo, se B é **Ο**, **Ω**, ou **Θ** de A. Justifique suas
    respostas.
 
    | A                          | B                                 | Complex |
