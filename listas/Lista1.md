@@ -121,3 +121,9 @@
    ```
    
    Qual a complexidade da sua função?
+
+## Complexidade
+
+1. Para cada uma das afirmativas abaixo, diga se a afirmativa é verdadeira (V) ou falsa (F). Em todas as afirmativas, justifique a sua resposta. Respostas sem justificativa não serão consideradas.
+
+   1. Considere um programa P que faz uma série de operações de custo constante, chama uma função F1 com complexidade dada por f(n) e depois chama uma função F2 com complexidade dada por g(n), onde g(n) = 1000 * f(n). Pode-se afirmar que o programa P é O(f(n)).
