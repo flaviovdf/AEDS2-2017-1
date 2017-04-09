@@ -150,8 +150,9 @@
    int palindroma(char *string1, char *string2)
    ```
 
-1. Escreva uma função que indica se duas strings são anagramas. Qual a
-   complexidade da sua função?
+1. Escreva uma função que indica se duas strings são anagramas. 
+   Pode assumir que as palavras serão sempre de [a-z] minúsculo.
+   Qual a complexidade da sua função?
 
    ```c
    int anagrama(char *string1, char *string2)
