@@ -157,6 +157,6 @@
    | *n<sup>2</sup>*            | *n*                               | **Ο**   |
    | *n*                        | *n<sup>3</sup>*                   | **Ω**   |
    | *n<sup>4</sup> + n  + 100* | *n<sup>3</sup> + 100<sup>4</sup>* | **?**   |
-   | *2<sup>n</sup>*            | *3<sup>n/2</sup>                  | **?**   |
+   | *2<sup>n</sup>*            | *3<sup>n/2</sup>*                 | **?**   |
    | *c<sup>ε</sup>*            | *(c+1)<sup>ε</sup>*               | **?**   |
    | *log(n)*                   | *sqrt(log(n))*                    | **?**   |
