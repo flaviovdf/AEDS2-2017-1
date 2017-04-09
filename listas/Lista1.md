@@ -32,6 +32,27 @@
 1. Escreva um algoritmo que determina se um número inteiro é primo. Qual
    é a complexidade do seu algoritmo?
 
+1. Escreva um que aproxima o logaritmo de um número inteiro para um número
+   outro inteiro cujo valor é próximo do log real. Isto é, arredonde o valor
+   de log para cima ou para baixo. Por exemplo log<sub>3</sub>10 = 2.09. 
+   Você pode retornar 2 ou 3. Qual a complexidade da sua função?
+   
+   ```c
+   int myLogTosco(int number, int power)
+   ```
+   
+   Não utilize a `math.h` ou qualquer biblioteca externa. Código C apenas.
+   
+1. Escreva uma função que retorna os *x* menores números de um vetor. Quando
+   *x=1*, retornamos apenas o menor número. Quando *x=2* retornamos os dois
+   menores. Qual a complexidade da sua função?
+
+   ```c
+   int nSmallest(int *vec, int n, int x)
+   ```
+   
+   n é número de elementos no vetor.
+   
 1. Escreva um algoritmo que compacta uma string. A compactação de uma string
    é uma operação que simplesmente conta o número de ocorrências de letras na
    string retornando uma nova string de tamanho menor. Por exemplo, a string:
