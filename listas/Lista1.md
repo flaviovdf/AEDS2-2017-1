@@ -66,13 +66,13 @@
    Sua função deve ter uma assinatura como:
 
    ```c
-   char *compact(char *string)
+   char *compacta(char *string)
    ```
 
    Escreva também a função inversa
 
    ```c
-   char *descompact(char *string)
+   char *descompacta(char *string)
    ```
 
    Indique a complexidade das duas funções em termos do tamanho das strings.
@@ -142,6 +142,20 @@
    ```
 
    Qual a complexidade da sua função?
+  
+1. Escrea uma função que indica se duas strings são palíndromas. Qual a
+   complexidade da sua função?
+
+   ```c
+   int palindroma(char *string1, char *string2)
+   ```
+
+1. Escrea uma função que indica se duas strings são anagramas. Qual a
+   complexidade da sua função?
+
+   ```c
+   int anagrama(char *string1, char *string2)
+   ```
 
 ## Complexidade
 
