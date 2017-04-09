@@ -1,6 +1,6 @@
 **Universidade Federal de Minas Gerais**
 
-**Disciplina: DCC065 - Sistemas Operacionais**
+**Disciplina: DCC002 - Algoritmos e Estrutura de Dados 2**
 
 **Professor: Flavio Vinicius Diniz de Figueiredo**
 
