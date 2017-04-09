@@ -39,12 +39,13 @@ Slides também podem ser encontrados no [Google Drive](https://drive.google.com/
 |   7  | 30/03/17 |  Técnicas de Análise de Algoritmos        |[06-Tecnicas], [06-ExerciciosProva1]                    |
 |   8  | 04/04/17 |  Técnicas de Análise de Algoritmos        |[06-Tecnicas], [07-Recursividade]                       |
 |   9  | 06/04/17 |  Recursividade (Análise)                  |[07-Recursividade]                                      |
-|   10 | 18/04/17 |  *Prova 1*                                |                                                        |
+|   10 | 18/04/17 |  *Prova 1* (era dia 11, trocada)          |                                                        |
 
 | Aula | Data     |  Prova-2: Estruturas Básicas              | Informações                                            |
 |------|----------|-------------------------------------------|--------------------------------------------------------|
 |   11 | 11/04/17 |  Listas                                   | [08-Listas], [08-ExemplosListas]                       |
 |      | 13/04/17 |  *Sem Aula, Feriado*                      |                                                        |
+|      | 18/04/17 |  Prova 1 (ver acima. data alterada)       |                                                        |
 |   12 | 20/04/17 |  Filas e Pilhas                           |                                                        |
 |   13 | 25/04/17 |  Filas e Pilhas                           |                                                        |
 |   14 | 27/04/17 |  Árvores                                  |                                                        |
@@ -53,11 +54,11 @@ Slides também podem ser encontrados no [Google Drive](https://drive.google.com/
 
 | Aula | Data     |  Prova-3: Ordenação                       | Informações                                            |
 |------|----------|-------------------------------------------|--------------------------------------------------------|
-|   17 | 09/05/17 |  Ordenação                                |                                                        |
-|   18 | 11/05/17 |  Ordenação                                |                                                        |
-|   19 | 16/05/17 |  Ordenação                                |                                                        |
-|   20 | 18/05/17 |  Ordenação                                |                                                        |
-|   21 | 23/05/17 |  Ordenação                                |                                                        |
+|   17 | 09/05/17 |  Ordenação (Insertion, Select)            |                                                        |
+|   18 | 11/05/17 |  Ordenação (Merge)                        |                                                        |
+|   19 | 16/05/17 |  Ordenação (Heaps, Heap Sort)             |                                                        |
+|   20 | 18/05/17 |  Ordenação (QuickSort)                    |                                                        |
+|   21 | 23/05/17 |  Ordenação (Casos Lineares)               |                                                        |
 |   22 | 25/05/17 |  *Prova 3*                                |                                                        |
 
 | Aula | Data     |  Prova-4: Busca                           | Informações                                            |
