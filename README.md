@@ -18,6 +18,7 @@ Sala: 2008
 - [Vídeos](#vídeos)
 - [TP0](https://github.com/flaviovdf/AEDS2-2017-1/blob/master/TP0/README.md)
 - [TP1](https://github.com/flaviovdf/AEDS2-2017-1/blob/master/TP1/README.md)
+- [Lista1](https://github.com/flaviovdf/AEDS2-2017-1/blob/master/listas/Lista1.md)
 - [Material Interessante](#material-interessante)
 
 ## Aulas
