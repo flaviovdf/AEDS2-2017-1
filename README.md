@@ -101,7 +101,7 @@ Usuários do linux já devem ter o Gcc instalado.
 [04b-MinMax3]: ./slides/04b-MinMax3.pdf
 [05-Comportamento]: ./slides/05-ComportamentoAssintotico.pdf
 [06-Tecnicas]: ./slides/06-Tecnicas.pdf
-[06-ExerciciosProva1]: ./slides/06b-ExerciciosProva1.pdf
+[06-ExerciciosProva1]: https://github.com/flaviovdf/AEDS2-2017-1/blob/master/listas/Lista1.md
 [07-Recursividade]: ./slides/07-Recursividade.pdf
 [08-Listas]: ./slides/08-Listas.pdf
 [08-ExemplosListas]: https://github.com/flaviovdf/AEDS2-2017-1/tree/master/exemplos/listas
