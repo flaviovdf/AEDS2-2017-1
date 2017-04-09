@@ -45,13 +45,13 @@
    Sua função deve ter uma assinatura como:
 
    ```c
-   char *compact(char *string);
+   char *compact(char *string)
    ```
 
    Escreva também a função inversa
 
    ```c
-   char *descompact(char *string);
+   char *descompact(char *string)
    ```
 
    Indique a complexidade das duas funções em termos do tamanho das strings.
@@ -97,4 +97,27 @@
    
    Para auxiliar seu método, pode utilizar `strtok` da `string.h`.
    Sua função funciona quando mais de um espaço entre palavras é inserido?
+   Qual a complexidade da sua função?
+
+1. Escreva uma função para encontrar o local de início de fim de uma
+   substring string dentro de outra string. A assinatura da função é:
+   
+   ```c
+   void subPosition(char *text, char *sub, int *start, int *end)
+   ```
+   
+   Para uma entrada:
+   
+   ```c
+   char *sub = "muito";
+   char *texto = "Eu gosto muito de AEDS2";
+   ```
+   
+   Seu método deve retornar:
+   
+   ```c
+   *start = 9;
+   *end = 13;
+   ```
+   
    Qual a complexidade da sua função?
