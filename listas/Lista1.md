@@ -17,7 +17,7 @@
    * Indique a complexidade de todas as funções
    * Justifique as assinaturas de cada função
 
-1. Crie um TAD para pontos em um espaço $n$-dimensional (Euclidean space).
+1. Crie um TAD para pontos em um espaço *n*-dimensional (Euclidean space).
    Implemente funções para inicializar um ponto, computar a distância entre
    dois pontos, a norma de dois pontos, o ângulo dos pontos e rotacionar o
    espaço.
