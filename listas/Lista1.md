@@ -19,8 +19,8 @@
 
 1. Crie um TAD para pontos em um espaço $n$-dimensional (Euclidean space).
    Implemente funções para inicializar um ponto, computar a distância entre
-   dois pontos, a norma de dois pontos, o ângulo dos pontos e 
-   rotacionar o espaço.
+   dois pontos, a norma de dois pontos, o ângulo dos pontos e rotacionar o
+   espaço.
 
    * https://en.wikipedia.org/wiki/Euclidean_space
    * https://en.wikipedia.org/wiki/Rotation_matrix
@@ -60,13 +60,13 @@
    `vec`, o tamanho do mesmo `n`, junto com um número inteiro `target`. Sua
    função deve indicar se no vetor `vec` existem dois elementos cuja soma é
    `target`. Por exemplo:
- 
+
    ```
    vec = [10, 20, 3, 45, 0]
    target = 65
    return 1 //45 + 20 = 65
    ```
-   
+
    ```
    vec = [10, 20, 3, 45, 0]
    target = 29
@@ -94,36 +94,69 @@
    ```c
    char *invertWords(char *string)
    ```
-   
+
    Para auxiliar seu método, pode utilizar `strtok` da `string.h`.
    Sua função funciona quando mais de um espaço entre palavras é inserido?
    Qual a complexidade da sua função?
 
 1. Escreva uma função para encontrar o local de início de fim de uma
    substring string dentro de outra string. A assinatura da função é:
-   
+
    ```c
    void subPosition(char *text, char *sub, int *start, int *end)
    ```
-   
+
    Para uma entrada:
-   
+
    ```c
    char *sub = "muito";
    char *texto = "Eu gosto muito de AEDS2";
    ```
-   
+
    Seu método deve retornar:
-   
+
    ```c
    *start = 9;
    *end = 13;
    ```
-   
+
    Qual a complexidade da sua função?
 
 ## Complexidade
 
-1. Para cada uma das afirmativas abaixo, diga se a afirmativa é verdadeira (V) ou falsa (F). Em todas as afirmativas, justifique a sua resposta. Respostas sem justificativa não serão consideradas.
+1. Para cada uma das afirmativas abaixo, diga se a afirmativa é verdadeira (V)
+   ou falsa (F). Em todas as afirmativas, justifique a sua resposta. Respostas
+   sem justificativa não serão consideradas.
 
-   1. Considere um programa P que faz uma série de operações de custo constante, chama uma função F1 com complexidade dada por f(n) e depois chama uma função F2 com complexidade dada por g(n), onde g(n) = 1000 * f(n). Pode-se afirmar que o programa P é O(f(n)).
+   1. Considere um programa P que faz uma série de operações de custo
+      constante, chama uma função F1 com complexidade dada por *f(n)* e depois
+      chama uma função F2 com complexidade dada por *g(n)*, onde
+      *g(n) = 1000 f(n)*. Pode-se afirmar que o programa P é **O(f(n))**.
+
+   1. Considere um programa cuja função de complexidade é *f(n) = 3 log(n)*.
+      É correto afirmar que esse programa é **O(log n)**, mas não é
+      **O(n<sup>2</sup>)**.
+
+   1. Um programa P executa uma função F1 com complexidade *f(n)* em 50% de suas
+      n interações, e uma função F2 com complexidade *g(n)* nas demais
+      interações. Portanto, o programa P tem complexidade
+      **O(Max (O(f(n), O(g(n)))**.
+
+   1. Sejam duas funções de complexidade *g(n) = 5(n<sup>2</sup>) + 3n + 4* e
+      *f(n) = 95n<sup>2</sup>* + n + 15. É correto afirmar que um programa P1
+      cuja complexidade é g(n) é mais rápido que um programa P2, com
+      complexidade f(n).
+
+1. Considerando que 0 < ε < 1 < c, indique para cada par de expressões (A, B)
+   na tabela abaixo, se A é **Ο**, **Ω**, ou **Θ** de B. Justifique suas
+   respostas.
+
+   | A                          | B                                 | Complex |
+   |----------------------------|-----------------------------------|----------
+   | *n*                        | *3n*                              | **Θ**   |
+   | *n<sup>2</sup>*            | *n*                               | **Ο**   |
+   | *n*                        | *n<sup>3</sup>*                   | **Ω**   |
+   | *n<sup>4</sup> + n  + 100* | *n<sup>3</sup> + 100<sup>4</sup>* | **?**   |
+   | *2<sup>n</sup>*            | *3<sup>n/2</sup>                  | **?**   |
+   | *c<sup>ε</sup>*            | *(c+1)<sup>ε</sup>*               | **?**   |
+   | *log(n)*                   | *sqrt(log(n))*                    | **?**   |
