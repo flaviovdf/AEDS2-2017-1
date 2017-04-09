@@ -143,14 +143,14 @@
 
    Qual a complexidade da sua função?
   
-1. Escrea uma função que indica se duas strings são palíndromas. Qual a
+1. Escreva uma função que indica se duas strings são palíndromas. Qual a
    complexidade da sua função?
 
    ```c
    int palindroma(char *string1, char *string2)
    ```
 
-1. Escrea uma função que indica se duas strings são anagramas. Qual a
+1. Escreva uma função que indica se duas strings são anagramas. Qual a
    complexidade da sua função?
 
    ```c
