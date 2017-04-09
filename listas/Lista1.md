@@ -1,6 +1,6 @@
 **Universidade Federal de Minas Gerais**
 
-**Disciplina: DCC065 - Sistemas Operacionais**
+**Disciplina: DCC002 - Algoritmos e Estrutura de Dados 2**
 
 **Professor: Flavio Vinicius Diniz de Figueiredo**
 
@@ -17,7 +17,7 @@
    * Indique a complexidade de todas as funções
    * Justifique as assinaturas de cada função
 
-1. Crie um TAD para pontos em um espaço $n$-dimensional (Euclidean space).
+1. Crie um TAD para pontos em um espaço *n*-dimensional (Euclidean space).
    Implemente funções para inicializar um ponto, computar a distância entre
    dois pontos, a norma de dois pontos, o ângulo dos pontos e rotacionar o
    espaço.
@@ -32,6 +32,27 @@
 1. Escreva um algoritmo que determina se um número inteiro é primo. Qual
    é a complexidade do seu algoritmo?
 
+1. Escreva um que aproxima o logaritmo de um número inteiro para um número
+   outro inteiro cujo valor é próximo do log real. Isto é, arredonde o valor
+   de log para cima ou para baixo. Por exemplo log<sub>3</sub>10 = 2.09. 
+   Você pode retornar 2 ou 3. Qual a complexidade da sua função?
+   
+   ```c
+   int myLogTosco(int number, int power)
+   ```
+   
+   Não utilize a `math.h` ou qualquer biblioteca externa. Código C apenas.
+   
+1. Escreva uma função que retorna os *x* menores números de um vetor. Quando
+   *x=1*, retornamos apenas o menor número. Quando *x=2* retornamos os dois
+   menores. Qual a complexidade da sua função?
+
+   ```c
+   int nSmallest(int *vec, int n, int x)
+   ```
+   
+   n é número de elementos no vetor.
+   
 1. Escreva um algoritmo que compacta uma string. A compactação de uma string
    é uma operação que simplesmente conta o número de ocorrências de letras na
    string retornando uma nova string de tamanho menor. Por exemplo, a string:
@@ -45,13 +66,13 @@
    Sua função deve ter uma assinatura como:
 
    ```c
-   char *compact(char *string)
+   char *compacta(char *string)
    ```
 
    Escreva também a função inversa
 
    ```c
-   char *descompact(char *string)
+   char *descompacta(char *string)
    ```
 
    Indique a complexidade das duas funções em termos do tamanho das strings.
@@ -121,6 +142,20 @@
    ```
 
    Qual a complexidade da sua função?
+  
+1. Escreva uma função que indica se duas strings são palíndromas. Qual a
+   complexidade da sua função?
+
+   ```c
+   int palindroma(char *string1, char *string2)
+   ```
+
+1. Escreva uma função que indica se duas strings são anagramas. Qual a
+   complexidade da sua função?
+
+   ```c
+   int anagrama(char *string1, char *string2)
+   ```
 
 ## Complexidade
 
@@ -157,6 +192,6 @@
    | *n<sup>2</sup>*            | *n*                               | **Ο**   |
    | *n*                        | *n<sup>3</sup>*                   | **Ω**   |
    | *n<sup>4</sup> + n  + 100* | *n<sup>3</sup> + 100<sup>4</sup>* | **?**   |
-   | *2<sup>n</sup>*            | *3<sup>n/2</sup>                  | **?**   |
+   | *2<sup>n</sup>*            | *3<sup>n/2</sup>*                 | **?**   |
    | *c<sup>ε</sup>*            | *(c+1)<sup>ε</sup>*               | **?**   |
    | *log(n)*                   | *sqrt(log(n))*                    | **?**   |
