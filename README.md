@@ -38,37 +38,37 @@ Slides também podem ser encontrados no [Google Drive](https://drive.google.com/
 |   7  | 30/03/17 |  Técnicas de Análise de Algoritmos        |[06-Tecnicas], [06-ExerciciosProva1]                    |
 |   8  | 04/04/17 |  Técnicas de Análise de Algoritmos        |[06-Tecnicas], [07-Recursividade]                       |
 |   9  | 06/04/17 |  Recursividade (Análise)                  |[07-Recursividade]                                      |
-|   10 | 11/04/17 |  *Prova 1*                                |                                                        |
+|   10 | 18/04/17 |  *Prova 1*                                |                                                        |
 
 | Aula | Data     |  Prova-2: Estruturas Básicas              | Informações                                            |
 |------|----------|-------------------------------------------|--------------------------------------------------------|
-|   11 | 13/04/17 |  Listas                                   | [08-Listas], [08-ExemplosListas]                       |
-|   12 | 18/04/17 |  Filas e Pilhas                           |                                                        |
-|   13 | 20/04/17 |  Filas e Pilhas                           |                                                        |
-|   14 | 25/04/17 |  Árvores                                  |                                                        |
-|   15 | 27/04/17 |  Árvores                                  |                                                        |
-|   16 | 02/05/17 |  *Prova 2*                                |                                                        |
+|   11 | 11/04/17 |  Listas                                   | [08-Listas], [08-ExemplosListas]                       |
+|      | 13/04/17 |  *Sem Aula, Feriado*                      |                                                        |
+|   12 | 20/04/17 |  Filas e Pilhas                           |                                                        |
+|   13 | 25/04/17 |  Filas e Pilhas                           |                                                        |
+|   14 | 27/04/17 |  Árvores                                  |                                                        |
+|   15 | 02/04/17 |  Árvores                                  |                                                        |
+|   16 | 04/05/17 |  *Prova 2*                                |                                                        |
 
 | Aula | Data     |  Prova-3: Ordenação                       | Informações                                            |
 |------|----------|-------------------------------------------|--------------------------------------------------------|
-|   17 | 04/05/17 |  Ordenação                                |                                                        |
-|   18 | 09/05/17 |  Ordenação                                |                                                        |
-|   19 | 11/05/17 |  Ordenação                                |                                                        |
-|   20 | 16/05/17 |  Ordenação                                |                                                        |
-|   21 | 18/05/17 |  Ordenação                                |                                                        |
-|   22 | 23/05/17 |  Ordenação                                |                                                        |
-|   23 | 25/06/17 |  *Prova 3*                                |                                                        |
+|   17 | 09/05/17 |  Ordenação                                |                                                        |
+|   18 | 11/05/17 |  Ordenação                                |                                                        |
+|   19 | 16/05/17 |  Ordenação                                |                                                        |
+|   20 | 18/05/17 |  Ordenação                                |                                                        |
+|   21 | 23/05/17 |  Ordenação                                |                                                        |
+|   22 | 25/05/17 |  *Prova 3*                                |                                                        |
 
 | Aula | Data     |  Prova-4: Busca                           | Informações                                            |
 |------|----------|-------------------------------------------|--------------------------------------------------------|
-|   24 | 30/05/17 |  Busca Binária                            |                                                        |
-|   25 | 01/06/17 |  Árvores de Pesquisa                      |                                                        |
-|   26 | 06/06/17 |  Árvores Balanceadas                      |                                                        |
-|   27 | 08/06/17 |  Árvores Balanceadas                      |                                                        |
-|   28 | 13/06/17 |  Hashing                                  |                                                        |
+|   23 | 30/05/17 |  Busca Binária                            |                                                        |
+|   24 | 01/06/17 |  Árvores de Pesquisa                      |                                                        |
+|   25 | 06/06/17 |  Árvores Balanceadas                      |                                                        |
+|   26 | 08/06/17 |  Árvores Balanceadas                      |                                                        |
+|   27 | 13/06/17 |  Hashing                                  |                                                        |
 |      | 15/06/17 |                                           | *Sem aulas, feriado.*                                  |
-|   29 | 20/06/17 |  Hashing                                  |                                                        |
-|   30 | 22/06/17 |  *Prova 4*                                |                                                        |
+|   28 | 20/06/17 |  Hashing                                  |                                                        |
+|   29 | 22/06/17 |  *Prova 4*                                |                                                        |
 
 ## Vídeos
 
