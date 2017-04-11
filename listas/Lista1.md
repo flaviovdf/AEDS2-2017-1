@@ -101,6 +101,10 @@
 
    Qual a complexidade da sua função?
 
+   Para simplificar, assuma que target sempre é maior do que todos os elementos
+   do vetor. Isto é, se `target = 65` nenhum elemento do vetor tem tamanho
+   maior do que `65`.
+
 1. Escreva uma função que inverte as palavras de uma string. Por exemplo:
 
    ```
@@ -121,7 +125,7 @@
    Qual a complexidade da sua função?
 
 1. Escreva uma função para encontrar o local de início de fim de uma
-   substring string dentro de outra string. A assinatura da função é:
+   substring dentro de outra string. A assinatura da função é:
 
    ```c
    void subPosition(char *text, char *sub, int *start, int *end)
@@ -141,8 +145,13 @@
    *end = 13;
    ```
 
-   Qual a complexidade da sua função?
-  
+   Qual a complexidade da sua função? A mesma funciona com a entrada:
+
+    ```c
+    char *sub = "aabb";
+    char *text = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabb";
+    ```
+
 1. Escreva uma função que indica se duas strings são palíndromas. Qual a
    complexidade da sua função?
 
