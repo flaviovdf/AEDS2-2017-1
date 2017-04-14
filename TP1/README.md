@@ -7,7 +7,7 @@ Para isto, você pode fazer uso do esqueleto disponível abaixo:
 
 ## Datas
 
-  * Entrega: para o dia 22 de Abril
+  * Entrega: para o dia 21 de Abril (23:59)
 
 ## O Problema
 
