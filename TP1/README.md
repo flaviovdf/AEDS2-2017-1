@@ -7,7 +7,7 @@ Para isto, você pode fazer uso do esqueleto disponível abaixo:
 
 ## Datas
 
-  * Entrega: para o dia 18 de Abril
+  * Entrega: para o dia 22 de Abril
 
 ## O Problema
 
@@ -20,35 +20,73 @@ você deve garantir que seu código do banco não seja limitado por constantes.
 Em outras palavras, queremos que seja possível que o sistema do banco:
 
   1. Funcione com qualquer número de transações
-  2. Ordene as transações por valor
-  3. Ordene as transações por tempo
+  2. Liste as transações por valor
+  3. Liste as transações por data (para facilitar pode usar o time_t)
   4. Funcione com qualquer número de contas correntes
 
-## Mensurando o Tempo de Execução dos Programas
+**Como usar o time_t para datas?**
 
-Como estamos tentando entender o tempo de execução de programas, para seu TP
-você deve utilizar.
+Os time_t já são datas internamente. Para imprimir uma data você pode usar `ctime`.
+
+```c
+#include <stdio.h>
+#include <time.h>
+int main() {
+  time_t now;
+  time(&now);
+  printf ("A data atual é: %s", ctime (&now));
+}
+```
+
+**Como comparar dois time_t?**
+
+A função difftime retorna a diferença em segundos.
 
 ```c
 #include <stdio.h>
 #include <time.h>
 
+int main() {
+  time_t now;
+  time(&now);
+  time_t now2;
+  sleep(10);
+  time(&now2);
+  double diff_t = difftime(now2, now);
+  printf("%d\n", diff_t);
+  return 0;
+}
+```
+
+## Mensurando o Tempo de Execução dos Programas
+
+Para todas suas funções, mensure o tempo de execução das mesmas usando
+como explicado abaixo. Para isto você deve usar a função `clock`. A
+diferença de clock para time é que a primeira é melhor para tempo
+de funções (tem uma precisão maior). A mesma não é boa pra datas.
+
+```
+#include <stdio.h>
+#include <time.h>
+
 void minhaFuncao() {
   //Faz algo bem complicado aqui!!
+  sleep(20);
+  //Fim!
 }
 
 int main ()
 {
-  time_t inicio;
-  time_t fim;
+  clock_t inicio;
+  clock_t fim;
 
-  inicio = time(NULL);
+  inicio = clock();
   minhaFuncao();
-  fim = time(NULL);
+  fim = clock();
+  double execTime = (double)(fim - inicio) / CLOCKS_PER_SEC;
+  printf("A função minhaFuncao executou em %f segundos\n", execTime);
 
-  printf("A função minhaFuncao executou em XX segundos %ld\n", fim);
-
-  return(0);
+  return 0;
 }
 ```
 
@@ -115,6 +153,39 @@ Caso alguma das duas contas não exista seu programa deve imprimir:
 ```
 Conta não existente. Operação durou 2 segundos.
 ```
+
+**Listagens**
+
+```
+liste data NumeroConta
+```
+Lista as transações por data, neste momento seu TP deve imprimir uma lista de datas e valores:
+
+A saída deve ser
+```
+DATA_1 VALOR_1
+DATA_2 VALOR_2
+DATA_3 VALOR_3
+Operaço durou 7 segundos
+```
+Para imprimir DATA_1, DATA_2 etc utilize a função `ctime`. Aqui, DATA_1 deve ser menor do que
+DATA_2 e assim sucessivamente.
+
+```
+liste valor NumeroConta
+```
+Lista as transações por valor, neste momento seu TP deve imprimir uma lista de datas e valores:
+
+A saída deve ser
+```
+DATA_1 VALOR_1
+DATA_2 VALOR_2
+DATA_3 VALOR_3
+Operaço durou 12 segundos
+```
+
+Para imprimir DATA_1, DATA_2 etc utilize a função `ctime`. Aqui, VALOR_1 deve ser menor do que
+VALOR_2 e assim sucessivamente.
 
 ## Perguntas
 
