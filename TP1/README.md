@@ -35,7 +35,7 @@ Os time_t já são datas internamente. Para imprimir uma data você pode usar
 int main() {
   time_t now;
   time(&now);
-  printf ("A data atual é: %s", ctime (&now));
+  printf("A data atual é: %s", ctime (&now));
 }
 ```
 
