@@ -36,6 +36,7 @@ int main() {
   time_t now;
   time(&now);
   printf("A data atual é: %s", ctime (&now));
+  return 0;
 }
 ```
 
