@@ -7,7 +7,7 @@ Para isto, você pode fazer uso do esqueleto disponível abaixo:
 
 ## Datas
 
-  * Entrega: para o dia 22 de Abril
+  * Entrega: para o dia 24 de Abril
 
 ## O Problema
 
@@ -65,7 +65,7 @@ como explicado abaixo. Para isto você deve usar a função `clock`. A
 diferença de clock para time é que a primeira é melhor para tempo
 de funções (tem uma precisão maior). A mesma não é boa pra datas.
 
-```
+```c
 #include <stdio.h>
 #include <time.h>
 
