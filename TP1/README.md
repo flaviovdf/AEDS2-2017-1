@@ -26,7 +26,8 @@ Em outras palavras, queremos que seja possível que o sistema do banco:
 
 **Como usar o time_t para datas?**
 
-Os time_t já são datas internamente. Para imprimir uma data você pode usar `ctime`.
+Os time_t já são datas internamente. Para imprimir uma data você pode usar
+`ctime`.
 
 ```c
 #include <stdio.h>
@@ -40,7 +41,7 @@ int main() {
 
 **Como comparar dois time_t?**
 
-A função difftime retorna a diferença em segundos.
+A função `difftime` retorna a diferença em segundos.
 
 ```c
 #include <stdio.h>
@@ -62,7 +63,7 @@ int main() {
 
 Para todas suas funções, mensure o tempo de execução das mesmas usando
 como explicado abaixo. Para isto você deve usar a função `clock`. A
-diferença de clock para time é que a primeira é melhor para tempo
+diferença de `clock` para `time` é que a primeira é melhor para tempo
 de funções (tem uma precisão maior). A mesma não é boa pra datas.
 
 ```c
