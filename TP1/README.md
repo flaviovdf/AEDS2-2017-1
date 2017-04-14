@@ -76,8 +76,7 @@ void minhaFuncao() {
   //Fim!
 }
 
-int main ()
-{
+int main () {
   clock_t inicio;
   clock_t fim;
 
