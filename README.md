@@ -41,9 +41,6 @@ Slides também podem ser encontrados no [Google Drive](https://drive.google.com/
 |   9  | 06/04/17 |  Recursividade (Análise)                  |[07-Recursividade]                                      |
 |   10 | 18/04/17 |  *Prova 1* (era dia 11, trocada)          |                                                        |
 
-- [Prova1](https://github.com/flaviovdf/AEDS2-2017-1/blob/master/provas/Prova1.pdf)
-- [GabaritoProva1](https://github.com/flaviovdf/AEDS2-2017-1/blob/master/provas/Prova1Gabarito.pdf)
-
 | Aula | Data     |  Prova-2: Estruturas Básicas              | Informações                                            |
 |------|----------|-------------------------------------------|--------------------------------------------------------|
 |   11 | 11/04/17 |  Listas                                   | [08-Listas], [08-ExemplosListas]                       |
