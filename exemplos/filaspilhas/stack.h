@@ -8,7 +8,7 @@
  * a *stack_node_t.
  */
 typedef struct stack_node {
-  void *value;
+  int value;
   struct stack_node *next;
 } stack_node_t;
 
@@ -22,21 +22,26 @@ typedef struct {
 /*
  * Creates an empty stack
  */
-stack_t *stack_create();
+stack_t *stackCreate();
 
 /*
  * Pushes a value to the top of the stack
  */
-void stack_push(stack_t *stack, void *value);
+void stackPush(stack_t *stack, int value);
 
 /*
  * Pop's a value from the top of the stack. The value is removed
  */
-void *stack_pop(stack_t *stack);
+int stackPop(stack_t *stack);
 
 /*
  * Determines if an stack is empty
  */
-int stack_is_empty(stack_t *stack);
+int stackIsEmpty(stack_t *stack);
+
+/*
+ * Destroys the stack
+ */
+void stackDestroy(stack_t *stack);
 
 #endif
