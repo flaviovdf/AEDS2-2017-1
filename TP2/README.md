@@ -29,7 +29,6 @@ abaixo:
 ```c
 typedef struct node {
   int *notas;
-  int numeroPerguntas; //n acima
   int matriculaDiscente;
   node *next;
   //respostas dos alunos. Vamos assumir uma prova de múltipla escolha
@@ -39,7 +38,8 @@ typedef struct node {
 } prova_t;
 
 typedef struct {
-  int numeroPerguntas;
+  int numeroPerguntas; //n acima
+  int numeroProvas;
   prova_t *primeiraProva;
 } circular_t;
 ```
