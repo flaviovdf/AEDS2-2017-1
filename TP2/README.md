@@ -41,14 +41,14 @@ typedef struct node {
 typedef struct {
   int numeroPerguntas;
   prova_t *primeiraProva;
-} prova_t;
+} circular_t;
 ```
 
 A mesma, deve suportar as seguintes operações:
 
 ```c
 //Cria uma lista circular para um conjunto de provas de n perguntas
-prova_t *criaListaCircularProvas(int numeroPerguntas);
+circular_t *criaListaCircularProvas(int numeroPerguntas);
 
 //Cria uma prova nova
 prova_t *criaProvaDiscente(int matriculaDiscente);
