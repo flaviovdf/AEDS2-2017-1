@@ -30,7 +30,7 @@ abaixo:
 typedef struct node {
   int *notas;
   int matriculaDiscente;
-  node *next;
+  struct node *next;
   //respostas dos alunos. Vamos assumir uma prova de múltipla escolha
   //onde cada elemento da prova é entre a, b, c, d, ou e.
   char *respostas;
