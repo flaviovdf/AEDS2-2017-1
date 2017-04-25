@@ -6,9 +6,6 @@
 
 ## A Correção da Prova de AEDS2
 
-Para este TP vamos focar em entender filas e pilhas. O TP em si será menor do
-que o TP1 (menos tempo).
-
 Tentando ser justo com os alunos, o professor de AEDS2 decidiu corrigir a
 prova cada questão por vez. Isto é, primeiro ele corrigiu a primeira questão
 de cada aluno, depois a segunda questão e assim sucessivamente.
@@ -20,8 +17,9 @@ o mesmo decidiu criar uma fila circular.
 A fila circular funciona de forma similar a uma fila normal. Porém,
 os não temos a ideia de `head` (cabeça) e `tail` (calda). O elemento final
 da fila é ligado ao primeiro elemento. Para conseguir caminhar na fila sem
-fica em um loop eterno, precisamos guardar o número de elementos inserido na
-mesma.
+ficar presto em um loop eterno, precisamos guardar o número de elementos
+inserido na mesma. Assim, partindo de um elemento qualquer damos `n` passos
+e voltamos para o estado inicial.
 
 ## Seu TAD
 
