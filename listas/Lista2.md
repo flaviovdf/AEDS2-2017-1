@@ -33,3 +33,14 @@
    o processo entre as pilhas você ordena os valores. 
    
 ## Árvores
+
+1. Implemente uma árvore binária
+
+1. Implemente os algoritmos de caminhamento na árvore acima
+
+1. Após criar sua árvore, implemente uma função que retorna 1 caso um
+   elemento passo `n` existe na árvore. `hasElement(tree_t *tree, int n)`.
+   
+1. Implemente um código para remover elementos de uma árvore.
+
+1. Ache o menor elemento em uma árvore.
