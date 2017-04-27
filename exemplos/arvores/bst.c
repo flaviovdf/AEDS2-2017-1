@@ -13,6 +13,11 @@ bst_t *createTree() {
   return tree;
 }
 
+/*
+ * Insere um elemento na árvore de forma recursiva. Caminhamos até
+ * a posição correta de acordo com o valor do novo nó. O caminhanmento é
+ * feito chamando a mesma função para o filho da esquerda ou direita.
+ */
 void _insertValueRecursive(node_t *parent, node_t *newNode) {
   //Caminha para esquerda
   if ((newNode->value <= parent->value)) { 
@@ -33,9 +38,16 @@ void _insertValueRecursive(node_t *parent, node_t *newNode) {
   }
 }
 
+/*
+ * Insere um elemento na árvore de forma NÃO recursiva. Caminhamos até
+ * a posição correta de acordo com o valor do novo nó. O caminhamento é
+ * feito atualizando um apontador. Caso o valor do novo nó seja menor do
+ * que o apontador, vamos para esquerda, caso contrário, direita.
+ * Quando não temos para onde caminhar achamos o local de inserção.
+ */
 void _insertValueNonRecursive(node_t *root, node_t *newNode) {
-  node_t *candidateParent = root;
-  node_t *actualParent = NULL;
+  node_t *candidateParent = root; //Usado apenas para controle, termina NULL
+  node_t *actualParent = NULL;  //Após o laço, vai apontar para o pai do nó
   while (candidateParent != NULL) {
     actualParent = candidateParent;
     if ((newNode->value <= candidateParent->value)) { //Caminha esquerda
@@ -45,6 +57,7 @@ void _insertValueNonRecursive(node_t *root, node_t *newNode) {
     }
   }
   
+  //Inserindo o nó
   if ((newNode->value <= actualParent->value)) {
     actualParent->leftChild = newNode; 
   } else {
@@ -65,10 +78,17 @@ void insertValue(bst_t *tree, int value) {
   if (tree->root == NULL) {
     tree->root = node;
   } else {
+    //Mude este código para chamar o não recursivo
     _insertValueRecursive(tree->root, node);
   }
 }
 
+/*
+ * Acha um nó com um dado valor de forma recusiva. Para isto, caminhamos para
+ * esquerda ou direita caso o valor do nó atual seja menor ou maior do que
+ * estamos procurando. Se em algum momento acharmos NULL, não temos mais para
+ * aonde caminhar (valor não existe).
+ */
 int _hasValueRecursive(node_t *currentlyVisiting, int value) {
   if (currentlyVisiting == NULL)
     return 0;
@@ -96,6 +116,10 @@ int _hasValueNonRecursive(node_t *currentlyVisiting, int value) {
   }
 
   return 0;
+}
+
+int hasValue(bst_t *tree, int value) {
+  return _hasValueRecursive(tree->root, value);
 }
 
 node_t *_findLeftMostNode(node_t *node) {
@@ -160,11 +184,6 @@ int removeValue(bst_t *tree, int value) {
     return 0;
   _removeValue(tree, tree->root, NULL, value);
   return 1;
-}
-
-
-int hasValue(bst_t *tree, int value) {
-  return _hasValueRecursive(tree->root, value);
 }
 
 void _printInOrder(node_t *node) {
