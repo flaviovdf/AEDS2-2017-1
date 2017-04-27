@@ -13,6 +13,11 @@ bst_t *createTree() {
   return tree;
 }
 
+/*
+ * Insere um elemento na árvore de forma recursiva. Caminhamos até
+ * a posição correta de acordo com o valor do novo nó. O caminhanmento é
+ * feito chamando a mesma função para o filho da esquerda ou direita.
+ */
 void _insertValueRecursive(node_t *parent, node_t *newNode) {
   //Caminha para esquerda
   if ((newNode->value <= parent->value)) { 
@@ -33,9 +38,16 @@ void _insertValueRecursive(node_t *parent, node_t *newNode) {
   }
 }
 
+/*
+ * Insere um elemento na árvore de forma NÃO recursiva. Caminhamos até
+ * a posição correta de acordo com o valor do novo nó. O caminhamento é
+ * feito atualizando um apontador. Caso o valor do novo nó seja menor do
+ * que o apontador, vamos para esquerda, caso contrário, direita.
+ * Quando não temos para onde caminhar achamos o local de inserção.
+ */
 void _insertValueNonRecursive(node_t *root, node_t *newNode) {
-  node_t *candidateParent = root;
-  node_t *actualParent = NULL;
+  node_t *candidateParent = root; //Usado apenas para controle, termina NULL
+  node_t *actualParent = NULL;  //Após o laço, vai apontar para o pai do nó
   while (candidateParent != NULL) {
     actualParent = candidateParent;
     if ((newNode->value <= candidateParent->value)) { //Caminha esquerda
@@ -45,6 +57,7 @@ void _insertValueNonRecursive(node_t *root, node_t *newNode) {
     }
   }
   
+  //Inserindo o nó
   if ((newNode->value <= actualParent->value)) {
     actualParent->leftChild = newNode; 
   } else {
@@ -65,10 +78,17 @@ void insertValue(bst_t *tree, int value) {
   if (tree->root == NULL) {
     tree->root = node;
   } else {
+    //Mude este código para chamar o não recursivo
     _insertValueRecursive(tree->root, node);
   }
 }
 
+/*
+ * Acha um nó com um dado valor de forma recusiva. Para isto, caminhamos para
+ * esquerda ou direita caso o valor do nó atual seja menor ou maior do que
+ * estamos procurando. Se em algum momento acharmos NULL, não temos mais para
+ * aonde caminhar (valor não existe).
+ */
 int _hasValueRecursive(node_t *currentlyVisiting, int value) {
   if (currentlyVisiting == NULL)
     return 0;
@@ -98,52 +118,57 @@ int _hasValueNonRecursive(node_t *currentlyVisiting, int value) {
   return 0;
 }
 
-node_t *_findLeftMostNode(node_t *node) {
+int hasValue(bst_t *tree, int value) {
+  return _hasValueRecursive(tree->root, value);
+}
+
+node_t *_findMin(node_t *node) {
   if (node->leftChild == NULL)
     return node;
-  return _findLeftMostNode(node->leftChild);
+  return _findMin(node->leftChild);
 }
 
 void _removeValue(bst_t *tree, node_t *node, node_t *parent, int value) {
-  node_t* orphan;
-  if (value == node->value) {
-    //Caso 1: Sem Filhos
-    if (node->leftChild == NULL && node->rightChild == NULL) {
-      orphan = NULL;
-    //Caso 2: Apenas 1 Filho. ^ é um our exclusivo, ou left ou right != null
-    } else if ((node->leftChild == NULL) ^ (node->rightChild == NULL)) {
-      if (node->leftChild != NULL) {
-        orphan = node->leftChild;
-      } else {
-        orphan = node->rightChild;
+  node_t* replacement; //Guarda quem vai substituir o nó
+  if (value == node->value) { //Achamos quem temos que remover!
+    if (node->leftChild == NULL || node->rightChild == NULL) { //Caso 1 ou 2
+      //Caso 1: Sem Filhos
+      if (node->leftChild == NULL && node->rightChild == NULL) {
+        replacement = NULL;
       }
-    //Caso 3: 2 Filhos. Achar um nó para substituir
-    } else {
-      orphan = _findLeftMostNode(node->rightChild);
-    }
-    
-    //A partir daqui o orphan vai virar o nó.
-    //Atualizamos o parent
-    if (parent != NULL) {
-      if (node == parent->leftChild) {
-        parent->leftChild = orphan;
+      //Caso 2: Apenas 1 Filho. ^ é um our exclusivo, ou left ou right != null
+      else if (node->leftChild != NULL) {
+        replacement = node->leftChild;
       } else {
-        parent->rightChild = orphan;
+        replacement = node->rightChild;
       }
+      //A partir daqui o replacement vai ocupar o local do nó.
+      //Atualizamos o parent
+      if (parent != NULL) {
+        if (node == parent->leftChild) {
+          parent->leftChild = replacement;
+        } else {
+          parent->rightChild = replacement;
+        }
+      }
+      //Atualizamos a raiz se necessário
+      if (node == tree->root) {
+        tree->root = replacement;
+      }
+      free(node);
     }
-    //No Caso 3, o orphan tem que herdar os childs
-    if ((node->leftChild != NULL) && (node->rightChild != NULL)) {
-      if (node->leftChild != orphan)
-        orphan->leftChild = node->leftChild;
-      if (node->rightChild != orphan)
-        orphan->rightChild = node->rightChild;
+    //Caso 3: 2 Filhos. Achar um nó para substituir. Menor valor a direita
+    //        Precisamos do menor valor a direita para garantir que a árvore
+    //        mantenha a esquerda < nó < direita.
+    //        Aqui não fazemos free do nó, mudamos o valor dele com um correto,
+    //        menor da árvore a direita, e removemos este nó.
+    else {
+      replacement = _findMin(node->rightChild);
+      node->value = replacement->value;
+      //Essa chamada vai na árvore da direita e remove o nó que copiamos
+      //o valor!
+      _removeValue(tree, node->rightChild, node, replacement->value);
     }
-    //Atualizamos a raiz se necessário
-    if (node == tree->root) {
-      tree->root = orphan;
-    }
-    //Free!
-    free(node);
   } else {
     if (value < node->value) {
       _removeValue(tree, node->leftChild, node, value);
@@ -160,11 +185,6 @@ int removeValue(bst_t *tree, int value) {
     return 0;
   _removeValue(tree, tree->root, NULL, value);
   return 1;
-}
-
-
-int hasValue(bst_t *tree, int value) {
-  return _hasValueRecursive(tree->root, value);
 }
 
 void _printInOrder(node_t *node) {

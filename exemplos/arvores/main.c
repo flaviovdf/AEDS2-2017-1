@@ -26,21 +26,36 @@ int main() {
   printf("The tree contains: 5 %d\n", hasValue(tree, 5));
   printf("The tree contains: 54 %d\n", hasValue(tree, 54));
   
+  printf("Removing 4\n");
   removeValue(tree, 4);
   printf("In Order ");
   printInOrder(tree);
   printf("\n");
 
+  printf("Removing 20\n");
   removeValue(tree, 20);
   printf("In Order ");
   printInOrder(tree);
   printf("\n");
 
+  printf("Removing 5\n");
   removeValue(tree, 5);
   printf("In Order ");
   printInOrder(tree);
   printf("\n");
   
+  //Brincando um pouco...
+  insertValue(tree, 4);
+  insertValue(tree, 4);
+  insertValue(tree, 4);
+  insertValue(tree, 4);
+  insertValue(tree, 4);
+  insertValue(tree, 4);
+  insertValue(tree, 4);
+  insertValue(tree, 32);
+  insertValue(tree, 32);
+  insertValue(tree, 32);
+  removeValue(tree, tree->root->value);
   bstFree(tree);
 
   return 0;
