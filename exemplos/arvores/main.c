@@ -44,6 +44,18 @@ int main() {
   printInOrder(tree);
   printf("\n");
   
+  //Brincando um pouco...
+  insertValue(tree, 4);
+  insertValue(tree, 4);
+  insertValue(tree, 4);
+  insertValue(tree, 4);
+  insertValue(tree, 4);
+  insertValue(tree, 4);
+  insertValue(tree, 4);
+  insertValue(tree, 32);
+  insertValue(tree, 32);
+  insertValue(tree, 32);
+  removeValue(tree, tree->root->value);
   bstFree(tree);
 
   return 0;
