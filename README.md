@@ -48,7 +48,7 @@ Slides também podem ser encontrados no [Google Drive](https://drive.google.com/
 |   11 | 11/04/17 |  Listas                                   | [08-Listas], [08-ExemplosListas]                       |
 |      | 13/04/17 |  *Sem Aula, Feriado*                      |                                                        |
 |      | 18/04/17 |  Prova 1 (ver acima. data alterada)       |                                                        |
-|   12 | 20/04/17 |  Filas e Pilhas                           |                                                        |
+|   12 | 20/04/17 |  Filas e Pilhas                           | [09-FilasPilhas]                                       |
 |   13 | 25/04/17 |  Filas e Pilhas                           |                                                        |
 |   14 | 27/04/17 |  Árvores                                  |                                                        |
 |   15 | 02/04/17 |  Árvores                                  |                                                        |
@@ -106,4 +106,5 @@ Usuários do linux já devem ter o Gcc instalado.
 [06-ExerciciosProva1]: https://github.com/flaviovdf/AEDS2-2017-1/blob/master/listas/Lista1.md
 [07-Recursividade]: ./slides/07-Recursividade.pdf
 [08-Listas]: ./slides/08-Listas.pdf
+[09-FilasPilhas]: ./slides/09-FilasPilhas.pdf
 [08-ExemplosListas]: https://github.com/flaviovdf/AEDS2-2017-1/tree/master/exemplos/listas
