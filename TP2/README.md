@@ -83,7 +83,7 @@ de cada aluno. Antes das respostas, leia a matrícula do aluno.
 Para cada matrícula, uma prova tem que ser criada e inserida na lista.
 
 Por fim, leia o gabarito da prova. Quando o gabarito for lido, imprima a nota
-dos alunos em ordem crescente. Para isto, utilize a função remover prova com
+dos alunos em ordem decrescente. Para isto, utilize a função remover prova com
 maior nota.
 
 Após corrigir a primeira prova, seu TP pode ler mais provas. O mesmo vai
