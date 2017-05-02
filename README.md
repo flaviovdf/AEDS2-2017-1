@@ -50,7 +50,7 @@ Slides também podem ser encontrados no [Google Drive](https://drive.google.com/
 |      | 18/04/17 |  Prova 1 (ver acima. data alterada)       |                                                        |
 |   12 | 20/04/17 |  Filas e Pilhas                           | [09-FilasPilhas]                                       |
 |   13 | 25/04/17 |  Filas e Pilhas                           |                                                        |
-|   14 | 27/04/17 |  Árvores                                  |                                                        |
+|   14 | 27/04/17 |  Árvores                                  | [10-Arvores]                                           |
 |   15 | 02/04/17 |  Árvores                                  |                                                        |
 |   16 | 04/05/17 |  *Prova 2*                                |                                                        |
 
@@ -66,7 +66,7 @@ Slides também podem ser encontrados no [Google Drive](https://drive.google.com/
 | Aula | Data     |  Prova-4: Busca                           | Informações                                            |
 |------|----------|-------------------------------------------|--------------------------------------------------------|
 |   23 | 30/05/17 |  Busca Binária                            |                                                        |
-|   24 | 01/06/17 |  Árvores de Pesquisa                      |                                                        |
+|   24 | 01/06/17 |  Árvores Balanceadas                      |                                                        |
 |   25 | 06/06/17 |  Árvores Balanceadas                      |                                                        |
 |   26 | 08/06/17 |  Árvores Balanceadas                      |                                                        |
 |   27 | 13/06/17 |  Hashing                                  |                                                        |
@@ -107,4 +107,5 @@ Usuários do linux já devem ter o Gcc instalado.
 [07-Recursividade]: ./slides/07-Recursividade.pdf
 [08-Listas]: ./slides/08-Listas.pdf
 [09-FilasPilhas]: ./slides/09-FilasPilhas.pdf
+[10-Arvores]: ./slides/10-Arvores.pdf
 [08-ExemplosListas]: https://github.com/flaviovdf/AEDS2-2017-1/tree/master/exemplos/listas
