@@ -19,6 +19,9 @@
 
 1. Ache o menor elemento em uma árvore.
 
+1. Como computar a altura de uma árvore? Isto é, quantos níveis abaixo da
+   raiz existem? Tal código pode ser feito com poucas linhas + recursividade.
+
 ## Insertion Sort, Selection Sort, Bubble Sort
 
 1. Implemente um bubble sort otimizado. Veja os slides para a definição do
