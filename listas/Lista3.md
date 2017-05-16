@@ -51,3 +51,11 @@
 
 1. Usando apenas a função partition do QuickSort, como você faz para encontrar
    os top x maiores elementos de um vetor. Qual o custo da sua função?
+   
+## HeapSort
+
+1. Indique se a sequnência abaixo é um max heap:
+   `23, 17, 14, 6, 13, 10, 1, 5, 7, 12`
+   
+1. Faça um TAD para um heap que não utiliza vetores.
+   Lembre-se da árvore binária.
