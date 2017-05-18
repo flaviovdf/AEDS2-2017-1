@@ -63,12 +63,12 @@ Slides também podem ser encontrados no [Google Drive](https://drive.google.com/
 |   19 | 16/05/17 |  Ordenação (Heaps, Heap Sort)             |                                                        |
 |   20 | 18/05/17 |  Ordenação (QuickSort)                    |                                                        |
 |   21 | 23/05/17 |  Ordenação (Casos Lineares)               |                                                        |
-|   22 | 25/05/17 |  *Prova 3*                                |                                                        |
+|   22 | 25/05/17 |  Revisão Ordenação                        |                                                        |
+|   23 | 30/05/17 |  Busca Binária                            |                                                        |
+|   24 | 01/06/17 |  *Prova 3*                                |                                                        |
 
 | Aula | Data     |  Prova-4: Busca                           | Informações                                            |
 |------|----------|-------------------------------------------|--------------------------------------------------------|
-|   23 | 30/05/17 |  Busca Binária                            |                                                        |
-|   24 | 01/06/17 |  Árvores Balanceadas                      |                                                        |
 |   25 | 06/06/17 |  Árvores Balanceadas                      |                                                        |
 |   26 | 08/06/17 |  Árvores Balanceadas                      |                                                        |
 |   27 | 13/06/17 |  Hashing                                  |                                                        |
