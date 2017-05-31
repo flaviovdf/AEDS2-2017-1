@@ -62,16 +62,17 @@ Slides também podem ser encontrados no [Google Drive](https://drive.google.com/
 |   20 | 18/05/17 |  Ordenação (QuickSort)                    |                                                        |
 |   21 | 23/05/17 |  Ordenação (Casos Lineares)               |                                                        |
 |   22 | 25/05/17 |  Revisão Ordenação                        |                                                        |
-|   23 | 30/05/17 |  Busca Binária                            |                                                        |
+|   23 | 30/05/17 |  *Ver Abaixo*                             |                                                        |
 |   24 | 01/06/17 |  *Prova 3*                                |                                                        |
 
 | Aula | Data     |  Prova-4: Busca                           | Informações                                            |
 |------|----------|-------------------------------------------|--------------------------------------------------------|
-|   25 | 06/06/17 |  Árvores Balanceadas                      |                                                        |
-|   26 | 08/06/17 |  Árvores Balanceadas                      |                                                        |
+|   23 | 30/05/17 |  Árvores Balanceadas (AVL)                |                                                        |
+|   25 | 06/06/17 |  Árvores Balanceadas (R&B)                |                                                        |
+|   26 | 08/06/17 |  Árvores Balanceadas (BTree)              |                                                        |
 |   27 | 13/06/17 |  Hashing                                  |                                                        |
 |      | 15/06/17 |                                           | *Sem aulas, feriado.*                                  |
-|   28 | 20/06/17 |  Hashing                                  |                                                        |
+|   28 | 20/06/17 |  Pesquisa Digital                         |                                                        |
 |   29 | 22/06/17 |  *Prova 4*                                |                                                        |
 
 ## Vídeos
