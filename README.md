@@ -69,10 +69,10 @@ Slides também podem ser encontrados no [Google Drive](https://drive.google.com/
 |------|----------|-------------------------------------------|--------------------------------------------------------|
 |   23 | 30/05/17 |  Árvores Balanceadas (AVL)                |                                                        |
 |   25 | 06/06/17 |  Árvores Balanceadas (R&B)                |                                                        |
-|   26 | 08/06/17 |  Árvores Balanceadas (BTree)              |                                                        |
+|   26 | 08/06/17 |  Árvores N-ary (BTree, 2-3Tree, Trie)     |                                                        |
 |   27 | 13/06/17 |  Hashing                                  |                                                        |
 |      | 15/06/17 |                                           | *Sem aulas, feriado.*                                  |
-|   28 | 20/06/17 |  Pesquisa Digital                         |                                                        |
+|   28 | 20/06/17 |  Hashing Perfeito                         |                                                        |
 |   29 | 22/06/17 |  *Prova 4*                                |                                                        |
 
 ## Vídeos
