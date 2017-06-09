@@ -28,6 +28,9 @@ Lembre-se das aulas que um Trie é uma árvore com n-filhos. Para simplificar a
 vida de todos, as palavras são compostas apenas de caracteres entre a e z.
 Todos são minúsculo.
 
+Existem várias formas de montar um Trie. Abaixo explico 2 delas. Escolha uma,
+ou bole uma nova, e implemente. Não precisa implementar mais do que uma!
+
 ## Um possível struct para tries
 
 Existem diversas formas de implementar uma árvore com n descendentes diretos.
@@ -44,7 +47,7 @@ typedef struct trie_node {
 } trie_node_t;
 
 typedef struct trie {
-  trie_node_t *root;
+  struct *trie_node firstLevel; // com ALPHABET_SIZE posições
 } trie_t;
 ```
 
@@ -52,6 +55,15 @@ Acima mostro um exemplo com ponteiros, o campo seria iniciado:
 
 ```c
 node->children = (trie_node_t *) malloc(ALPHABET_SIZE * sizeof(trie_node_t));
+```
+
+Neste caso, podemos achar um filho com base em um no índice fazendo:
+
+```
+A -> 0
+B -> 1
+C -> 2
+...
 ```
 
 ## Outro possível struct para tries
@@ -85,9 +97,11 @@ typedef struct trie_node {
 } trie_node_t;
 
 typedef struct trie {
-  trie_node_t *root;
+  trie_node_t *headFirstLevel;
 } trie_t;
 ```
+
+Neste caso precisamos de um for para achar um filho de um certo caractere.
 
 ## Entrada e Saída
 
@@ -106,3 +120,10 @@ Sugestões: dia, diamante, diario
 Lembre-se de mostrar apenas 3 sugestões por palavra. Se uma palavra for OK
 mas também for prefixo de outros (caso de dia acima), mostre as sugestões com a
 palavra.
+
+## Perguntas
+
+  1. Qual o custo de montar o seu Trie?
+  1. Qual o custo de buscar uma palavra?
+  1. Qual o custo de achar 3 sugestões?
+  1. Compare as duas implementaçes acima em termos dos 2 custos acima.
