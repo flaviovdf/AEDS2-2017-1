@@ -24,11 +24,13 @@
 
 ## Insertion Sort, Selection Sort, Bubble Sort
 
-1. Implemente um bubble sort otimizado. Veja os slides para a definição do
+1. Implemente um BubbleSort otimizado. Veja os slides para a definição do
    mesmo.
 
-1. Implemente um insertion sort otimizado. Veja os slides para a definição do
+1. Implemente um InsertionSort otimizado. Veja os slides para a definição do
    mesmo.
+   
+1. Implemente um InsertionSort recursivo.
 
 ## MergeSort
 
@@ -49,13 +51,17 @@
 
 1. Implemente um QuickSort recursivo.
 
+1. Implemente um QuickSort iterativo usando uma Pilha extra.
+
 1. Usando apenas a função partition do QuickSort, como você faz para encontrar
    os top x maiores elementos de um vetor. Qual o custo da sua função?
-   
+
 ## HeapSort
 
 1. Indique se a sequnência abaixo é um max heap:
    `23, 17, 14, 6, 13, 10, 1, 5, 7, 12`
    
-1. Faça um TAD para um heap que não utiliza vetores.
-   Lembre-se da árvore binária.
+1. Faça um TAD para um heap que não utiliza vetores. Lembre-se da árvore binária.
+
+1. Como achar os top-x maiores elementos de um vetor de dados com um MinHeap.
+   Implemente o código
