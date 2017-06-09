@@ -7,7 +7,7 @@ deve implementar um TAD como o abaixo:
 #ifndef HEAP_AEDS
 #define HEAP_AEDS
 
-typepef struct {
+typedef struct {
   int *values;    //Valores armazenados na forma de heap
   int n;          //Número de valores
 } heap_t;
