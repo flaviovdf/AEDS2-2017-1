@@ -16,7 +16,7 @@ typedef struct {
  * Cria o heap com os valores passados. Para evitar erros no TP você pode criar
  * uma cópia dos values para criar o heap (por isso temos o struct acima). De
  * qualquer forma, é comum criar um heap sem criar cópia dos elementos.
- * /
+ */
 void buildMaxHeap(int *values, int n);
 
 /*
