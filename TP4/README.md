@@ -125,4 +125,5 @@ palavra.
 
   1. Qual o custo de montar o seu Trie?
   1. Qual o custo de buscar uma palavra?
+  1. Qual o custo de achar 3 sugestões?
   1. Compare as duas implementaçes acima em termos dos 2 custos acima.
