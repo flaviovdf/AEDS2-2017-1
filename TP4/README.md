@@ -13,8 +13,12 @@
 typedef struct trie_node {
   char c;
   int isEndOfWord;
-  struct trie_node children[ALPHABET_SIZE]; // não é eficaz, mas funciona
-}
+  struct *trie_node children; // com ALPHABET_SIZE posições
+} trie_node_t;
+
+typedef struct trie {
+  trie_node_t *root;
+} trie;
 ```
 
 ## Entrada
