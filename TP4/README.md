@@ -14,7 +14,8 @@ typedef struct trie_node {
   char c;
   int isEndOfWord;
   struct trie_node children[ALPHABET_SIZE]; // não é eficaz, mas funciona
-}```
+}
+```
 
 ## Entrada
 
