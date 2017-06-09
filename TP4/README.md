@@ -47,7 +47,7 @@ typedef struct trie_node {
 } trie_node_t;
 
 typedef struct trie {
-  trie_node_t *root;
+  struct *trie_node firstLevel; // com ALPHABET_SIZE posições
 } trie_t;
 ```
 
@@ -97,7 +97,7 @@ typedef struct trie_node {
 } trie_node_t;
 
 typedef struct trie {
-  trie_node_t *root;
+  trie_node_t *headFirstLevel;
 } trie_t;
 ```
 
