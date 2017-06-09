@@ -18,7 +18,7 @@ typedef struct trie_node {
 
 typedef struct trie {
   trie_node_t *root;
-} trie;
+} trie_t;
 ```
 
 ## Entrada
