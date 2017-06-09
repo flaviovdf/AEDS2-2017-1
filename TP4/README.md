@@ -8,7 +8,7 @@
 ## Um possível struct para tries
 
 ```c
-#DEFINE ALPHABET_SIZE 26
+#define ALPHABET_SIZE 26
 
 typedef struct trie_node {
   char c;
