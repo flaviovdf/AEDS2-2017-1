@@ -12,12 +12,11 @@ hash_table_t *createTable(int size) {
   return tab;
 }
 
-void hashPut(hash_table_t *tab, int hashKey, void *keyData, void *valueData) {
+void hashPut(hash_table_t *tab, int hashKey, void *valueData) {
   // Cria nova entrada
   hash_entry_t *entry = (hash_entry_t*) malloc(sizeof(hash_entry_t));
   entry = (hash_entry_t*) malloc(sizeof(hash_entry_t));
   entry->hashKey = hashKey;
-  entry->keyData = keyData;
   entry->valueData = valueData;
   entry->next = NULL;
 
