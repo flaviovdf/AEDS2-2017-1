@@ -5,10 +5,16 @@ hash_table_t *createTable(int size, hash_f hashFunction) {
   hash_table_t *tab = (hash_table_t*) malloc(sizeof(hash_table_t));
   tab->entries = (hash_entry_t**) malloc(size * sizeof(hash_entry_t*));
   tab->size = size;
+  tab->hashFunction = hashFunction;
   int i;
   for (i = 0; i < size; i++)
     tab->entries[i] = NULL;
   return tab;
+}
+
+int hash(hash_table_t *tab, void *hashKey) {
+  int dataHash = tab->hashFunction(hashKey);
+  return dataHash % tab->size;
 }
 
 void hashPut(hash_table_t *tab, void *hashKey, void *valueData) {
@@ -19,7 +25,7 @@ void hashPut(hash_table_t *tab, void *hashKey, void *valueData) {
   entry->valueData = valueData;
   entry->next = NULL;
 
-  int location = tab->hashFunction(hashKey, tab->size);
+  int location = hash(tab, hashKey);
   hash_entry_t *prev = tab->entries[location];
   if (prev == NULL) {  // Lista vazia
     tab->entries[location] = entry;
@@ -33,7 +39,7 @@ void hashPut(hash_table_t *tab, void *hashKey, void *valueData) {
 }
 
 void *hashGet(hash_table_t *tab, void *hashKey) {
-  int location = tab->hashFunction(hashKey, tab->size);
+  int location = hash(tab, hashKey);
   void *returnVal = NULL;
   hash_entry_t *entry = tab->entries[location];
 
@@ -47,7 +53,7 @@ void *hashGet(hash_table_t *tab, void *hashKey) {
 }
 
 void *hashRemove(hash_table_t *tab, void *hashKey) {
-  int location = tab->hashFunction(hashKey, tab->size);
+  int location = hash(tab, hashKey);
   void *returnVal = NULL;
   hash_entry_t *prev = NULL;
   hash_entry_t *entry = tab->entries[location];
