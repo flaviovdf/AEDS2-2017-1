@@ -19,7 +19,7 @@ void hashPut(hash_table_t *tab, void *hashKey, void *valueData) {
   entry->valueData = valueData;
   entry->next = NULL;
 
-  int location = tab->hashFunction(hashKey);
+  int location = tab->hashFunction(hashKey, tab->size);
   hash_entry_t *prev = tab->entries[location];
   if (prev == NULL) {  // Lista vazia
     tab->entries[location] = entry;
@@ -33,7 +33,7 @@ void hashPut(hash_table_t *tab, void *hashKey, void *valueData) {
 }
 
 void *hashGet(hash_table_t *tab, void *hashKey) {
-  int location = tab->hashFunction(hashKey);
+  int location = tab->hashFunction(hashKey, tab->size);
   void *returnVal = NULL;
   hash_entry_t *entry = tab->entries[location];
 
@@ -47,7 +47,7 @@ void *hashGet(hash_table_t *tab, void *hashKey) {
 }
 
 void *hashRemove(hash_table_t *tab, void *hashKey) {
-  int location = tab->hashFunction(hashKey);
+  int location = tab->hashFunction(hashKey, tab->size);
   void *returnVal = NULL;
   hash_entry_t *prev = NULL;
   hash_entry_t *entry = tab->entries[location];

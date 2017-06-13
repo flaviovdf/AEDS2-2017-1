@@ -7,7 +7,7 @@ typedef struct hash_entry {
   struct hash_entry *next;   // Ponteiro para frente no caso de colisões
 } hash_entry_t;
 
-typedef int(*hash_f)(void*);   // Pointer para função de hash
+typedef int(*hash_f)(void*, int);   // Pointer para função de hash
 
 typedef struct {
   hash_entry_t **entries;     // Vetor de entradas
