@@ -1,5 +1,4 @@
 #include <stdlib.h>
-
 #include "hashtable.h"
 
 hash_table_t *createTable(int size) {
@@ -34,10 +33,36 @@ void hashPut(hash_table_t *tab, int hashKey, void *valueData) {
 }
 
 void *hashGet(hash_table_t *tab, int hashKey) {
+  int location = hashKey % tab->size;
+  void *returnVal = NULL;
+  hash_entry_t *entry = tab->entries[location];
 
-  return NULL;
+  while (entry != NULL && entry->hashKey != hashKey) {
+    entry = entry->next;
+  }
+  if (entry != NULL) {
+    returnVal = entry->valueData;
+  }
+  return returnVal;
 }
 
 void *hashRemove(hash_table_t *tab, int hashKey) {
-  return NULL;
+  int location = hashKey % tab->size;
+  void *returnVal = NULL;
+  hash_entry_t *prev = NULL;
+  hash_entry_t *entry = tab->entries[location];
+
+  while (entry != NULL && entry->hashKey != hashKey) {
+    prev = entry;
+    entry = entry->next;
+  }
+  if (entry != NULL) {
+    if (prev != NULL)
+      prev->next = entry->next;
+    else
+      tab->entries[location] = NULL;
+    returnVal = entry->valueData;
+    free(entry);
+  }
+  return returnVal;
 }
