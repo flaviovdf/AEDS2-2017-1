@@ -16,7 +16,7 @@ int main(void) {
   student_t *aluno = (student_t *) malloc(sizeof(student_t));
   aluno->matricula = matricula;
 
-  hash_table_t *hashTable = createTable(100001, studentHash);
+  hash_table_t *hashTable = createTable(100003, studentHash);
   hashPut(hashTable, aluno, "João");
 
   char *nomeNaTable = hashGet(hashTable, aluno);
