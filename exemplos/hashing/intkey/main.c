@@ -10,6 +10,7 @@ int main(void) {
   char *aluno = "Flavio F";
 
   // Valor pequeno e par para gerar colisoes
+  // Mude para um valor primo de tamanho razoável
   hash_table_t *hashTable = createTable(2);
   hashPut(hashTable, matricula, aluno);
 
