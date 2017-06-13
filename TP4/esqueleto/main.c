@@ -15,7 +15,7 @@ int main(void) {
 
   size_t bufferSize = 32; // Todas as palavras tem menos de 32 chars
   size_t lineSize;
-  char* line = (char *)malloc(bufferSize * sizeof(char));;
+  char* line = (char*) malloc(bufferSize * sizeof(char));
   assert(line != NULL);
 
   size_t i = 0;
