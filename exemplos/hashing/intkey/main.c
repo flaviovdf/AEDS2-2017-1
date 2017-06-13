@@ -15,7 +15,7 @@ int main(void) {
   hashPut(hashTable, matricula, aluno);
 
   char *alunoRecuperado = hashGet(hashTable, matricula);
-  assert(strcmp(aluno, alunoRecuperado) == 0);
+  assert(strcmp(aluno, alunoRecuperado) == 0); // Se False código explode
 
   hashPut(hashTable, 332234, "Uhul!");
   assert(strcmp("Uhul!", hashGet(hashTable, 332234)) == 0);
