@@ -18,10 +18,11 @@ Sala: 2008
 - [TP1](https://github.com/flaviovdf/AEDS2-2017-1/blob/master/TP1/README.md)
 - [TP2](https://github.com/flaviovdf/AEDS2-2017-1/blob/master/TP2/README.md)
 - [TP3](https://github.com/flaviovdf/AEDS2-2017-1/blob/master/TP3/README.md)
-- [TP4](https://github.com/flaviovdf/AEDS2-2017-1/blob/master/TP4/README.md)
+- [TP4](https://github.com/flaviovdf/AEDS2-2017-1/blob/master/TP4/)
 - [Lista1](https://github.com/flaviovdf/AEDS2-2017-1/blob/master/listas/Lista1.md)
 - [Lista2](https://github.com/flaviovdf/AEDS2-2017-1/blob/master/listas/Lista2.md)
 - [Lista3](https://github.com/flaviovdf/AEDS2-2017-1/blob/master/listas/Lista3.md)
+- [Lista4](https://github.com/flaviovdf/AEDS2-2017-1/blob/master/listas/Lista4.md)
 - [Material Interessante](#material-interessante)
 
 ## Aulas
