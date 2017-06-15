@@ -92,8 +92,8 @@ palavras `dado` e `doido`.
 typedef struct trie_node {
   char c;
   int isEndOfWord;
-  struct *trie_node next;
-  struct *trie_node headLowerLevel; // Topo da lista da cadeia abaixo
+  struct trie_node *next;
+  struct trie_node *headLowerLevel; // Topo da lista da cadeia abaixo
 } trie_node_t;
 
 typedef struct trie {
