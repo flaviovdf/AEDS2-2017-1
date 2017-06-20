@@ -34,6 +34,7 @@ int main(void) {
 
   // Resto do TP
   free(line);
+  
   fclose(arquivoEntrada);
   return 0;
 }
