@@ -113,7 +113,7 @@ Exemplo:
 Digite uma palavra: doido
 Palavra OK!
 
-Digite uma palavra: dia
+Digite uma palavra: di
 Sugestões: dia, diamante, diario
 ```
 
