@@ -33,8 +33,10 @@ int main(void) {
   }
 
   // Resto do TP
-  free(line);
+  // ...
+  //
   
+  free(line);
   fclose(arquivoEntrada);
   return 0;
 }
