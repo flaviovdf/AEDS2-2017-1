@@ -76,6 +76,7 @@ Slides também podem ser encontrados no [Google Drive](https://drive.google.com/
 |      | 15/06/17 |                                           | *Sem aulas, feriado.*                                  |
 |   28 | 20/06/17 |  Hashing Aberto                           |                                                        |
 |   29 | 22/06/17 |  *Prova 4*                                |                                                        |
+|   30 | 29/06/17 |  *Reposição*                              |                                                        |
 
 ## Vídeos
 
