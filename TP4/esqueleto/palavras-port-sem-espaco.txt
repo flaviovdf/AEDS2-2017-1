@@ -65179,7 +65179,6 @@ cyclospora
 czardas
 czarina
 dabada
-d'Abadia
 dabecia
 dabedeilismo
 dabedeillismo
@@ -65229,8 +65228,6 @@ dacnomano
 dacnomonomania
 dacnomonomaniaco
 dacnomonomano
-d'aco
-d'Aco
 dacoa
 dacola
 dacoma
@@ -65387,12 +65384,8 @@ dafnia
 dafnismo
 dafnite
 dafnomancia
-d'Africa
 dagapamil
 dagonismo
-d'agora
-d'agua
-d'Agua
 daguerreotipar
 daguerreotipia
 daguerreotipico
@@ -65401,30 +65394,21 @@ daimiado
 daimiato
 daimio
 daimoso
-d'Ajuda
 dalai
 dalanatada
 dalasi
 dalbavancina
 dalbraminol
-d'Alcantara
 daledalina
 dalem
-d'alem
-d'alembertiano
 dalfopristina
 dalgo
 dalguem
 dalgum
 dalgures
-d'alho
-d'Alho
 dalia
-d'Alianca
 dalina
 daliniano
-d'alma
-d'Alma
 dalmanites
 dalmata
 dalmatico
@@ -65475,8 +65459,6 @@ dandi
 dandinar
 dandismo
 danes
-d'angola
-d'Angola
 danificacao
 danificar
 danifico
@@ -65489,7 +65471,6 @@ danitraceno
 danofloxacino
 danoso
 danosteina
-d'Anta
 dantesco
 dantiano
 dantico
@@ -65509,13 +65490,11 @@ daquele
 daquem
 daqui
 daquilo
-dAquino
+daquino
 darandina
 darbismo
 darbista
 darbufelona
-d'Arc
-d'Arco
 dardanio
 dardar
 dardejar
@@ -65528,8 +65507,6 @@ darmadeira
 darodipino
 daroeira
 daroes
-d'arte
-d'Arte
 dartro
 dartroso
 darunavir
@@ -65584,7 +65561,6 @@ dauciforme
 daucineas
 daunorrubicina
 davidico
-d'Avila
 dazadrol
 dazepinila
 dazidamina
@@ -68908,7 +68884,6 @@ destabilizar
 destabocar
 destacadissimo
 destacavel
-d'Estado
 destalheira
 destampadoiro
 destampativo
@@ -74602,7 +74577,6 @@ doentinho
 doentio
 doestar
 doestavel
-d'Oeste
 dofamio
 dofetilida
 dofono
@@ -74682,7 +74656,6 @@ doleritico
 dolerito
 dolero
 dolerofanito
-d'olho
 doliaria
 doliarina
 doliarinico
@@ -75241,8 +75214,6 @@ dourejar
 dourejavel
 dourina
 dourinico
-d'ouro
-d'Ouro
 douseiro
 doutamente
 doutiar
@@ -75275,7 +75246,6 @@ doutrinaristico
 doutrinavel
 doutrineiro
 doutro
-d'outro
 doutrora
 doverita
 doviale
@@ -126862,7 +126832,7 @@ ipeuna
 ipeunense
 ipeuva
 ipexidina
-iPhone
+iphone
 ipiabense
 ipiauense
 ipiauiense
@@ -152241,7 +152211,6 @@ minha
 minhafo
 minhafre
 minhajirum
-minh'alma
 minhaminha
 minhamundis
 minhangolo
@@ -159621,8 +159590,6 @@ nagoa
 nagor
 nagrestipeno
 nagua
-n'agua
-n'Agua
 nagual
 nagui
 naguim
@@ -159682,8 +159649,6 @@ nalgudo
 nalguem
 nalgum
 nalidixico
-n'alma
-n'Alma
 nalmefeno
 nalmexona
 nalorfina
@@ -229489,7 +229454,6 @@ tuaca
 tuadeiro
 tuaia
 tuaiucu
-tu'alma
 tuamina
 tuaminoeptano
 tuapoca
