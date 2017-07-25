@@ -2,10 +2,6 @@
 
 Professor: Flavio Figueiredo
 
-Monitores: 
-  - edson (dcc ufmg br)
-  - thiagostehling (gmail com)
-
 Aulas: Segundas e Quartas (13:00 - 14:40)
 
 Sala: 2008
@@ -27,7 +23,7 @@ Sala: 2008
 
 ## Aulas
 
-Slides também podem ser encontrados no [Google Drive](https://drive.google.com/drive/folders/0B0ryAvcYobs0RWtXV2hWeUdSUjQ)
+Slides podem ser encontrados no [Google Drive](https://drive.google.com/drive/folders/0B0ryAvcYobs0RWtXV2hWeUdSUjQ)
 
 | Aula | Data     |  Revisão AEDS-1                           | Informações                                            |
 |------|----------|-------------------------------------------|--------------------------------------------------------|
